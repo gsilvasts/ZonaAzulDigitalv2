@@ -1,0 +1,75 @@
+CREATE TABLE Veiculos (
+Cd_Veiculo int(8) PRIMARY KEY,
+Cd_Cliente int(8),
+Placa varchar(10),
+Marca varchar(50),
+Modelo varchar(20)
+)
+
+CREATE TABLE Clientes (
+Cd_Cliente int(8) PRIMARY KEY,
+Login varchar(18),
+Nome varchar(50),
+CPF int(11),
+RG vachar(9),
+Email varchar(100),
+Telefone varchar(14),
+Senha varchar(18)
+)
+
+CREATE TABLE Cartões (
+Cd_Cartões int(16) PRIMARY KEY,
+Cd_Veiculo int(8),
+Cd_Vaga int(5),
+Data dateTime,
+Tempo_Entrada dateTime,
+Tempo_Saida dateTime,
+Tipo_Cartao int(1),
+FOREIGN KEY(Cd_Veiculo) REFERENCES Veiculos (Cd_Veiculo)
+)
+
+CREATE TABLE Funcionarios (
+Cd_Funcionario int(8) PRIMARY KEY,
+Login varchar(18),
+Cd_permissão int(2),
+Senha varchar(18)
+)
+
+CREATE TABLE Bairro (
+Cd_bairro int(2) PRIMARY KEY,
+Nome varchar(30)
+)
+
+CREATE TABLE Rua (
+Cd_rua int(4) PRIMARY KEY,
+Cd_bairro int(2),
+Nome int(255),
+FOREIGN KEY(Cd_bairro) REFERENCES Bairro (Cd_bairro)
+)
+
+CREATE TABLE Vagas (
+Cd_Vaga int(5) PRIMARY KEY,
+Cd_rua int(4),
+Nome varchar(5),
+Observação varchar(255),
+FOREIGN KEY(Cd_rua) REFERENCES Rua (Cd_rua)
+)
+
+CREATE TABLE Multas (
+Cd_Multas int(8) PRIMARY KEY,
+Cd_Cartões int(16),
+Cd_Funcionario int(8),
+Tipo_Multa int(3),
+Observação varchar(255),
+FOREIGN KEY(Cd_Cartões) REFERENCES Cartões (Cd_Cartões),
+FOREIGN KEY(Cd_Funcionario) REFERENCES Funcionarios (Cd_Funcionario)
+)
+
+CREATE TABLE Permissões (
+Cd_permissão int(2) PRIMARY KEY,
+Nome varchar(100)
+)
+
+ALTER TABLE Veiculos ADD FOREIGN KEY(Cd_Cliente) REFERENCES Clientes (Cd_Cliente)
+ALTER TABLE Cartões ADD FOREIGN KEY(Cd_Vaga) REFERENCES Vagas (Cd_Vaga)
+ALTER TABLE Funcionarios ADD FOREIGN KEY(Cd_permissão) REFERENCES Permissões (Cd_permissão)
