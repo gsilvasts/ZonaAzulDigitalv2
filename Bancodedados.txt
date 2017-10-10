@@ -1,17 +1,14 @@
 CREATE TABLE Veiculos (
 Cd_Veiculo int(8) PRIMARY KEY,
-Cd_Cliente int(8),
+CPF varchar(11),
 Placa varchar(10),
 Marca varchar(50),
 Modelo varchar(20)
 )
 
 CREATE TABLE Clientes (
-Cd_Cliente int(8) PRIMARY KEY,
-Login varchar(18),
+CPF varchar(11) PRIMARY KEY,
 Nome varchar(50),
-CPF int(11),
-RG vachar(9),
 Email varchar(100),
 Telefone varchar(14),
 Senha varchar(18)
@@ -70,6 +67,6 @@ Cd_permissão int(2) PRIMARY KEY,
 Nome varchar(100)
 )
 
-ALTER TABLE Veiculos ADD FOREIGN KEY(Cd_Cliente) REFERENCES Clientes (Cd_Cliente)
+ALTER TABLE Veiculos ADD FOREIGN KEY(CPF) REFERENCES Clientes (CPF)
 ALTER TABLE Cartões ADD FOREIGN KEY(Cd_Vaga) REFERENCES Vagas (Cd_Vaga)
 ALTER TABLE Funcionarios ADD FOREIGN KEY(Cd_permissão) REFERENCES Permissões (Cd_permissão)
