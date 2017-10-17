@@ -1,28 +1,31 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ZonaAzulDigital.Core.Models;
 using ZonaAzulDigital.Core.Services;
-using Xamarin.Forms;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
-    public class CadastroClienteViewModel : MvxViewModel
+    public partial class CadastroClienteViewModel : MvxViewModel
     {
+        //Corrigir, código com erro
+
         DataService dataService;
-       
+        List<Cliente> cliente;
+
         public CadastroClienteViewModel()
         {
-            //InitializeComponent();
-            //dataService = new DataService();
-            //AtualizaDados();
+            Initialize();
+            dataService = new DataService();
+            AtualizaDados();
         }
-        //async void AtualizaDados()
-        //{
-        //    await dataService.AddClienteAsync(cliente);
-        //}
+        async void AtualizaDados()
+        {
+            cliente = await dataService.GetClienteAsync();
+        }
 
         public override Task Initialize()
         {
@@ -32,60 +35,82 @@ namespace ZonaAzulDigital.Core.ViewModels
         public IMvxCommand CadastroCommand => new MvxCommand(CadastroAsync);
         private async void CadastroAsync()
         {
-            if (txtCPF != 0)
+            if (Valida())
             {
 
-                Cliente cliente = new Cliente
+            
+                Cliente novocliente = new Cliente
                 {
-                    Login = txtLogin,
-                    Nome = txtNome,
                     CPF = txtCPF,
-                    RG = txtRG,
-                    Email = txtEmail,
+                    Nome = txtNome,
+                    Email = txtEmail,                    
                     Telefone = txtTelefone,
                     Senha = txtSenha,
                 };
 
                 try
                 {
-                    await dataService.AddClienteAsync(cliente);
-                  
+                await dataService.AddClienteAsync(novocliente);
+                    AtualizaDados();
+                    LimparCliente();
                 }
+                //exception não funcionando corrigir aparte do alertdialogo.
                 catch (Exception ex)
                 {
-                    throw ex;
+                    await alertDialog("Erro", ex.Message, "OK");
                 }
             }
-
             else
             {
-
+                await alertDialog("Erro", "Dados Invalidos", "OK");
             }
         }
 
+        private void LimparCliente()
+        {
+            txtCPF = "";
+            txtNome = "";
+            txtEmail = "";
+            txtTelefone = "";
+            txtSenha = "";
+        }
 
+        private bool Valida()
+        {
+            if (string.IsNullOrEmpty(txtCPF) && string.IsNullOrEmpty(txtNome) && string.IsNullOrEmpty(txtEmail) && string.IsNullOrEmpty(txtTelefone) && string.IsNullOrEmpty(txtSenha))
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        private Task alertDialog(string v1, string message, string v2)
+        {
+            throw new NotImplementedException();
+        }
         #region Propriedades
-        private string _login;
+
+        private string _cpf;
         private string _nome;
-        private int _cpf;
-        private int _rg;
-        private string _email;
-        private int _telefone;
+        private string _email;          
+        private string _telefone;
         private string _senha;
 
-        public string txtLogin
+        public string txtCPF
         {
             get
             {
-                return _login;
+                return _cpf;
             }
             set
             {
-                _login = value;
-                RaisePropertyChanged(() => txtLogin);
+                _cpf = value;
+                RaisePropertyChanged(() => txtCPF);
             }
         }
-
         public string txtNome
         {
             get
@@ -98,31 +123,7 @@ namespace ZonaAzulDigital.Core.ViewModels
                 RaisePropertyChanged(() => txtNome);
             }
         }
-        public int txtCPF
-        {
-            get
-            {
-                return _cpf;
-            }
-            set
-            {
-                _cpf = value;
-                RaisePropertyChanged(() => txtCPF);
-            }
-        }
 
-        public int txtRG
-        {
-            get
-            {
-                return _rg;
-            }
-            set
-            {
-                _rg = value;
-                RaisePropertyChanged(() => txtRG);
-            }
-        }
         public string txtEmail
         {
             get
@@ -135,8 +136,9 @@ namespace ZonaAzulDigital.Core.ViewModels
                 RaisePropertyChanged(() => txtEmail);
             }
         }
-
-        public int txtTelefone
+ 
+               
+        public string txtTelefone
         {
             get
             {

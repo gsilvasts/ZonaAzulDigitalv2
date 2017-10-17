@@ -7,12 +7,26 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text Text" />
+        android:textSize="30dp"
+        android:hint="CPF"
+        local:MvxBind="txtCPF Text" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:password="true"
+        android:hint="Senha"
+        local:MvxBind="txtSenha Text" />
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"       
-        android:text="Reset"    
-        android:textSize="40dp"
-        local:MvxBind="Click ResetTextCommand" />
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:textSize="30dp"
+        local:MvxBind="Click LoginTextCommand" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        android:textSize="30dp"
+        local:MvxBind="Click CadastroTextCommand" />
 </LinearLayout>

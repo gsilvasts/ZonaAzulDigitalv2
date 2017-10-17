@@ -17,7 +17,7 @@ namespace ZonaAzulDigital.Core.Services
         {
             try
             {
-                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/";
+                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
                 var response = await client.GetStringAsync(url);
                 var cliente = JsonConvert.DeserializeObject<List<Cliente>>(response);
                 return cliente;
@@ -33,9 +33,9 @@ namespace ZonaAzulDigital.Core.Services
         {
             try
             {
-                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/";
+                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
 
-                var uri = new Uri(string.Format(url, cliente.Cd_Cliente));
+                var uri = new Uri(string.Format(url, cliente.CPF));
 
                 var data = JsonConvert.SerializeObject(cliente);
                 var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -58,8 +58,8 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task UpdateClienteAsync(Cliente cliente)
         {
-            string url = "http://zonaazuldigitalwebapi.azurewebsites.net/";
-            var uri = new Uri(string.Format(url, cliente.Cd_Cliente));
+            string url = "http://zonaazuldigitalwebapi.azurewebsites.net";
+            var uri = new Uri(string.Format(url, cliente.CPF));
 
             var data = JsonConvert.SerializeObject(cliente);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -75,8 +75,8 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task DeletaClienteAsync(Cliente cliente)
         {
-            string url = "http://zonaazuldigitalwebapi.azurewebsites.net/";
-            var uri = new Uri(string.Format(url, cliente.Cd_Cliente));
+            string url = "http://zonaazuldigitalwebapi.azurewebsites.net";
+            var uri = new Uri(string.Format(url, cliente.CPF));
             await client.DeleteAsync(uri);
         }
     }

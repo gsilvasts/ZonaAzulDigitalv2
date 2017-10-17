@@ -12,7 +12,7 @@ namespace ZonaAzulDigitalWebAPI.Models
     {
         protected static string GetStringConexao()
         {
-            return ConfigurationManager.ConnectionStrings["ZonaAzulSqlServer"].ConnectionString;
+            return ConfigurationManager.ConnectionStrings["ZonaAzulSQLServer"].ConnectionString;
         }
 
         public static List<Cliente> GetCliente()
@@ -34,9 +34,9 @@ namespace ZonaAzulDigitalWebAPI.Models
                                 cliente.Login = dr["Login"].ToString();
                                 cliente.Nome = dr["Nome"].ToString();
                                 cliente.CPF = Convert.ToInt32(dr["CPF"]);
-                                cliente.RG = Convert.ToInt32(dr["RG"]);
+                                cliente.RG = dr["RG"].ToString();
                                 cliente.Email = dr["Email"].ToString();
-                                cliente.Telefone = Convert.ToInt32(dr["Telefone"]);
+                                cliente.Telefone = dr["Telefone"].ToString();
                                 cliente.Senha = dr["Senha"].ToString();
                             }
                         }
@@ -64,9 +64,9 @@ namespace ZonaAzulDigitalWebAPI.Models
                                 cliente.Login = dr["Login"].ToString();
                                 cliente.Nome = dr["Nome"].ToString();
                                 cliente.CPF = Convert.ToInt32(dr["CPF"]);
-                                cliente.RG = Convert.ToInt32(dr["RG"]);
+                                cliente.RG = dr["RG"].ToString();
                                 cliente.Email = dr["Email"].ToString();
-                                cliente.Telefone = Convert.ToInt32(dr["Telefone"]);
+                                cliente.Telefone = dr["Telefone"].ToString();
                                 cliente.Senha = dr["Senha"].ToString();
 
                             }

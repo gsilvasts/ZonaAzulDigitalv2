@@ -142,6 +142,7 @@
     </Content>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\ZonaAzulDigital - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ZonaAzulDigitalWebAPI20170919121226 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
