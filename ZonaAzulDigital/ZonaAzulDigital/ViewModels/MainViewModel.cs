@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 using Xamarin.Forms;
-
+using System;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
@@ -21,6 +21,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         public IMvxCommand LoginTextCommand => new MvxCommand(LoginText);
         private void LoginText()
         {
+            
             Text = "Hello MvvmCross";
         }
 
@@ -33,7 +34,7 @@ namespace ZonaAzulDigital.Core.ViewModels
 
         public IMvxCommand CadastroTextCommand => new MvxCommand(CadastroReturn);
         private void CadastroReturn()
-        {
+        {           
             ShowViewModel<CadastroClienteViewModel>();
         }
     }

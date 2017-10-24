@@ -52,7 +52,8 @@ namespace ZonaAzulDigital.Core.ViewModels
                 {
                 await dataService.AddClienteAsync(novocliente);
                     AtualizaDados();
-                    LimparCliente();
+                    LimparCliente();                    
+                    ShowViewModel<MainViewModel>();
                 }
                 //exception não funcionando corrigir aparte do alertdialogo.
                 catch (Exception ex)

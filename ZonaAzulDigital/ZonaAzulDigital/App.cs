@@ -1,5 +1,7 @@
 using MvvmCross.Platform.IoC;
 
+using ZonaAzulDigital.Core.ViewModels;
+
 namespace ZonaAzulDigital.Core
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
@@ -10,8 +12,8 @@ namespace ZonaAzulDigital.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
-            RegisterAppStart<ViewModels.CadastroClienteViewModel>();
+                                  
+            RegisterAppStart<MainViewModel>();
         }
     }
 }

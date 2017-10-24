@@ -189,10 +189,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Bairro.cs" />
+    <Compile Include="Models\Cartoes.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\ClienteRepositorio.cs" />
     <Compile Include="Models\DalHelper.cs" />
     <Compile Include="Models\IClienteRepositorio.cs" />
+    <Compile Include="Models\Rua.cs" />
+    <Compile Include="Models\Vagas.cs" />
+    <Compile Include="Models\Veiculos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

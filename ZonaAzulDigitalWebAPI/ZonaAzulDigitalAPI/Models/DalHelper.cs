@@ -39,9 +39,6 @@ namespace ZonaAzulDigitalAPI.Models
 
             }
         }
-
-        
-
         public static List<Cliente> GetCliente()
         {
             List<Cliente> _cliente = new List<Cliente>();
@@ -70,8 +67,7 @@ namespace ZonaAzulDigitalAPI.Models
                     }
                 }
             }
-        }
-        
+        }        
         public static Cliente GetCliente(string CPF)
         {
             Cliente cliente = null;
@@ -100,9 +96,7 @@ namespace ZonaAzulDigitalAPI.Models
 
                 }
             }
-        }
-
-       
+        }       
         public static int UpdateCliente(Cliente cliente)
         {
             int reg = 0;

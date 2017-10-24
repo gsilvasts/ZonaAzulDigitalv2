@@ -10,7 +10,8 @@
         android:layout_height="match_parent">
         <EditText
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content"    
+            android:inputType="number"
             android:hint="CPF"
             android:textSize="20dp"
             local:MvxBind="Text txtCPF" />
@@ -22,19 +23,22 @@
             local:MvxBind="Text txtNome" />
         <EditText
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content"     
+            android:inputType="textEmailAddress"
             android:hint="E-mail"
             android:textSize="20dp"
             local:MvxBind="Text txtEmail" />
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:phoneNumber="true"
             android:hint="Telefone"
             android:textSize="20dp"
             local:MvxBind="Text txtTelefone" />
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:password="true"
             android:hint="Senha"
             android:textSize="20dp"
             local:MvxBind="Text txtSenha" />
