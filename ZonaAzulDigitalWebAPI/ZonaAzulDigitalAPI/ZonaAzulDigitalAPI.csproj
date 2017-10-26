@@ -183,20 +183,29 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BairroController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RuaController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\VeiculoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Bairro.cs" />
+    <Compile Include="Models\BairroRepositorio.cs" />
     <Compile Include="Models\Cartoes.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\ClienteRepositorio.cs" />
     <Compile Include="Models\DalHelper.cs" />
+    <Compile Include="Models\IBairroRepositorio.cs" />
     <Compile Include="Models\IClienteRepositorio.cs" />
+    <Compile Include="Models\IRuaRepositorio.cs" />
+    <Compile Include="Models\IVeiculoRepositorio.cs" />
     <Compile Include="Models\Rua.cs" />
+    <Compile Include="Models\RuaRepositorio.cs" />
     <Compile Include="Models\Vagas.cs" />
+    <Compile Include="Models\VeiculoRepositorio.cs" />
     <Compile Include="Models\Veiculos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -258,7 +267,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Bairro\" />
     <Folder Include="Views\Cliente\" />
+    <Folder Include="Views\Rua\" />
+    <Folder Include="Views\Veiculo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

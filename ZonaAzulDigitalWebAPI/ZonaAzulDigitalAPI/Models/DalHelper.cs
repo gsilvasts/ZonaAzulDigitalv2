@@ -15,6 +15,8 @@ namespace ZonaAzulDigitalAPI.Models
             return ConfigurationManager.ConnectionStrings["ZonaAzulSqlServer"].ConnectionString;
         }
 
+        #region DadosCliente
+
         public static int InsertCliente(Cliente cliente)
         {
             int reg = 0;
@@ -141,5 +143,138 @@ namespace ZonaAzulDigitalAPI.Models
 
             }
         }
+
+#endregion DadosClientes
+
+        #region DadosVeiculo
+        public static int InsertVeiculos(Veiculos veiculos)
+        {
+
+            int reg = 0;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                string sql = "Insert into Veiculos(Placa, Marca, Modelo, CPF) values (@Placa, @Marca, @Modelo, @CPF)";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@Placa", veiculos.Placa);
+                    cmd.Parameters.AddWithValue("@Marca", veiculos.Marca);
+                    cmd.Parameters.AddWithValue("@Modelo", veiculos.Modelo);
+                    cmd.Parameters.AddWithValue("@CPF", veiculos.CPF);
+
+                    con.Open();
+                    reg = cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+                return reg;
+            }
+        }
+        public static Veiculos GetVeiculos(string CPF)
+        {
+            Veiculos veiculos = null;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Veiculos where CPF = " + CPF, con))
+                {
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                veiculos = new Veiculos();
+                                veiculos.Placa = dr["Placa"].ToString();
+                                veiculos.Marca = dr["Marca"].ToString();
+                                veiculos.Modelo = dr["Modelo"].ToString();
+                                veiculos.CPF = dr["CPF"].ToString();
+
+                            }
+                        }
+                        return veiculos;
+                    }
+
+                }
+            }
+        }
+        public static int DeleteVeiculos(string Placa)
+        {
+            int reg = 0;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                string sql = "Delete from Veiculos where Placa = " + Placa;
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.AddWithValue("@Placa", Placa);
+
+                    con.Open();
+                    reg = cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+
+                return reg;
+
+            }
+        }
+#endregion DadosVeiculo
+
+        public static List<Bairro> GetBairro()
+        {
+            List<Bairro> _bairro = new List<Bairro>();
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Bairro", con))
+                {
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                var bairro = new Bairro();
+                                bairro.Nome = dr["Nome"].ToString();
+                               
+                                _bairro.Add(bairro);
+                            }
+                        }
+
+                        return _bairro;
+                    }
+                }
+            }
+        }
+
+        public static List<Rua> GetRua()
+        {
+            List<Rua> _rua = new List<Rua>();
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Rua" , con))
+                {
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                var rua = new Rua();
+                                rua.Nome = dr["Nome"].ToString();
+                                
+                                _rua.Add(rua);
+                            }
+                        }
+
+                        return _rua;
+                    }
+                }
+            }
+        }
+
+
+
     }
 }
