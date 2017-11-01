@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using ZonaAzulDigital.Core.Models;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 namespace ZonaAzulDigital.Core.Services
 {
@@ -78,6 +79,65 @@ namespace ZonaAzulDigital.Core.Services
             string url = "http://zonaazuldigitalwebapi.azurewebsites.net";
             var uri = new Uri(string.Format(url, cliente.CPF));
             await client.DeleteAsync(uri);
+        }
+
+        public async Task<Response> LoginAsync(string txtCPF, string txtSenha)
+        {
+            try
+            {
+                var loginRequest = new LoginRequest
+                {
+                    CPF = txtCPF,
+                    Senha = txtSenha,
+
+                };
+
+                var request = JsonConvert.SerializeObject(loginRequest);
+                var content = new StringContent(request, Encoding.UTF8, "application/Json");
+                var client = new HttpClient();
+
+                client.BaseAddress = new Uri("http://zonaazuldigitalwebapi.azurewebsites.net/");
+                var url = "/api/cliente/";
+                var response = await client.PostAsync(url, content);
+
+                var result = await response.Content.ReadAsStringAsync();
+                var cliente = JsonConvert.DeserializeObject<Cliente>(result);
+
+                return new Response
+                {
+                    IsSuccess = true,
+                    Message = "Login Ok",
+                    Result = cliente,
+                };
+                
+            }
+
+            catch(Exception ex)
+            {
+                return new Response
+                {
+                    IsSuccess = false,
+                    Message = ex.Message,
+                };
+            }
+
+            //var keyValues = new List<KeyValuePair<string, string>>
+            //{
+            //    new KeyValuePair<string, string>("CPF", txtCPF),
+            //    new KeyValuePair<string, string>("Senha", txtSenha)
+            //};
+
+            //var request = new HttpRequestMessage(
+            //    HttpMethod.Post, "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/");
+
+            //request.Content = new FormUrlEncodedContent(keyValues);
+
+            //var client = new HttpClient();
+            //var response = await client.SendAsync(request);
+
+            //var content = await response.Content.ReadAsStringAsync();
+
+            //Debug.WriteLine(content);
         }
     }
 }
