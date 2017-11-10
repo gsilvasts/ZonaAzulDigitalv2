@@ -47,27 +47,6 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxBind = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxBind;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxDropDownItemTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxGroupItemTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxItemTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxLang = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxLang;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxSource = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxSource;
-			global::MvvmCross.Droid.FullFragging.Resource.Attribute.MvxTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Id.MvvmCrossTagId = global::ZonaAzulDigital.Droid.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Droid.FullFragging.Resource.Id.MvxBindingTagUnique = global::ZonaAzulDigital.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding_MvxBind = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxBinding_MvxLang = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxControl = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxControl;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxControl_MvxTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxExpandableListView = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxImageView = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxImageView;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxImageView_MvxSource = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxImageView_MvxSource;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Droid.FullFragging.Resource.Styleable.MvxListView_MvxItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_fade_in = global::ZonaAzulDigital.Droid.Resource.Animation.abc_fade_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_fade_out = global::ZonaAzulDigital.Droid.Resource.Animation.abc_fade_out;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_grow_fade_in_from_bottom = global::ZonaAzulDigital.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -78,6 +57,13 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_in_top = global::ZonaAzulDigital.Droid.Resource.Animation.abc_slide_in_top;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_bottom = global::ZonaAzulDigital.Droid.Resource.Animation.abc_slide_out_bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.abc_slide_out_top = global::ZonaAzulDigital.Droid.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_in = global::ZonaAzulDigital.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_bottom_sheet_slide_out = global::ZonaAzulDigital.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_fab_in = global::ZonaAzulDigital.Droid.Resource.Animation.design_fab_in;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_fab_out = global::ZonaAzulDigital.Droid.Resource.Animation.design_fab_out;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_in = global::ZonaAzulDigital.Droid.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animation.design_snackbar_out = global::ZonaAzulDigital.Droid.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Animator.design_appbar_state_list_animator = global::ZonaAzulDigital.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxBind = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxDropDownItemTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.MvxGroupItemTemplate = global::ZonaAzulDigital.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -134,7 +120,15 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundTint = global::ZonaAzulDigital.Droid.Resource.Attribute.backgroundTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.backgroundTintMode = global::ZonaAzulDigital.Droid.Resource.Attribute.backgroundTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.barLength = global::ZonaAzulDigital.Droid.Resource.Attribute.barLength;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_autoHide = global::ZonaAzulDigital.Droid.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_hideable = global::ZonaAzulDigital.Droid.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_overlapTop = global::ZonaAzulDigital.Droid.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_peekHeight = global::ZonaAzulDigital.Droid.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.behavior_skipCollapsed = global::ZonaAzulDigital.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderWidth = global::ZonaAzulDigital.Droid.Resource.Attribute.borderWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.borderlessButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetDialogTheme = global::ZonaAzulDigital.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.bottomSheetStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.bottomSheetStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNegativeButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.buttonBarNeutralButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -152,6 +146,8 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.closeItemLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.closeItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseContentDescription = global::ZonaAzulDigital.Droid.Resource.Attribute.collapseContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapseIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapsedTitleGravity = global::ZonaAzulDigital.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.collapsedTitleTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.color = global::ZonaAzulDigital.Droid.Resource.Attribute.color;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorAccent = global::ZonaAzulDigital.Droid.Resource.Attribute.colorAccent;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.colorBackgroundFloating = global::ZonaAzulDigital.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -169,7 +165,12 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetRight = global::ZonaAzulDigital.Droid.Resource.Attribute.contentInsetRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStart = global::ZonaAzulDigital.Droid.Resource.Attribute.contentInsetStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentInsetStartWithNavigation = global::ZonaAzulDigital.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.contentScrim = global::ZonaAzulDigital.Droid.Resource.Attribute.contentScrim;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.controlBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.controlBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterMaxLength = global::ZonaAzulDigital.Droid.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterOverflowTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.counterTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.counterTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.customNavigationLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.customNavigationLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.defaultQueryHint = global::ZonaAzulDigital.Droid.Resource.Attribute.defaultQueryHint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.dialogPreferredPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -187,11 +188,27 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextColor = global::ZonaAzulDigital.Droid.Resource.Attribute.editTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.editTextStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.editTextStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.elevation = global::ZonaAzulDigital.Droid.Resource.Attribute.elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.errorTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.errorTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ZonaAzulDigital.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expanded = global::ZonaAzulDigital.Droid.Resource.Attribute.expanded;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleGravity = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMargin = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginBottom = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginEnd = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginStart = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleMarginTop = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.expandedTitleTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.fabSize = global::ZonaAzulDigital.Droid.Resource.Attribute.fabSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.foregroundInsidePadding = global::ZonaAzulDigital.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.gapBetweenBars = global::ZonaAzulDigital.Droid.Resource.Attribute.gapBetweenBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.goIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.goIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.headerLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.headerLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.height = global::ZonaAzulDigital.Droid.Resource.Attribute.height;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hideOnContentScroll = global::ZonaAzulDigital.Droid.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintAnimationEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.hintTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.hintTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeAsUpIndicator = global::ZonaAzulDigital.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.homeLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.homeLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.icon = global::ZonaAzulDigital.Droid.Resource.Attribute.icon;
@@ -199,9 +216,26 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.imageButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.imageButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.indeterminateProgressStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.initialActivityCount = global::ZonaAzulDigital.Droid.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.insetForeground = global::ZonaAzulDigital.Droid.Resource.Attribute.insetForeground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.isLightTheme = global::ZonaAzulDigital.Droid.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemIconTint = global::ZonaAzulDigital.Droid.Resource.Attribute.itemIconTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.itemPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.itemTextColor = global::ZonaAzulDigital.Droid.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.keylines = global::ZonaAzulDigital.Droid.Resource.Attribute.keylines;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout = global::ZonaAzulDigital.Droid.Resource.Attribute.layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layoutManager = global::ZonaAzulDigital.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_anchor = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_anchorGravity = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_behavior = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_collapseMode = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_collapseParallaxMultiplier = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_dodgeInsetEdges = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_insetEdge = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_keyline = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollFlags = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.layout_scrollInterpolator = global::ZonaAzulDigital.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listChoiceBackgroundIndicator = global::ZonaAzulDigital.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listDividerAlertDialog = global::ZonaAzulDigital.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listItemLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.listItemLayout;
@@ -215,8 +249,10 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.listPreferredItemPaddingRight = global::ZonaAzulDigital.Droid.Resource.Attribute.listPreferredItemPaddingRight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logo = global::ZonaAzulDigital.Droid.Resource.Attribute.logo;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.logoDescription = global::ZonaAzulDigital.Droid.Resource.Attribute.logoDescription;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxActionInlineWidth = global::ZonaAzulDigital.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.maxButtonHeight = global::ZonaAzulDigital.Droid.Resource.Attribute.maxButtonHeight;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.measureWithLargestChild = global::ZonaAzulDigital.Droid.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.menu = global::ZonaAzulDigital.Droid.Resource.Attribute.menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.multiChoiceItemLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationContentDescription = global::ZonaAzulDigital.Droid.Resource.Attribute.navigationContentDescription;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.navigationIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.navigationIcon;
@@ -229,10 +265,16 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.panelBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelMenuListTheme = global::ZonaAzulDigital.Droid.Resource.Attribute.panelMenuListTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.panelMenuListWidth = global::ZonaAzulDigital.Droid.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleContentDescription = global::ZonaAzulDigital.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleDrawable = global::ZonaAzulDigital.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleTint = global::ZonaAzulDigital.Droid.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.passwordToggleTintMode = global::ZonaAzulDigital.Droid.Resource.Attribute.passwordToggleTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupMenuStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.popupMenuStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupTheme = global::ZonaAzulDigital.Droid.Resource.Attribute.popupTheme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.popupWindowStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.popupWindowStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.preserveIconSpacing = global::ZonaAzulDigital.Droid.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.pressedTranslationZ = global::ZonaAzulDigital.Droid.Resource.Attribute.pressedTranslationZ;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.progressBarPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.progressBarPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.progressBarStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.progressBarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.queryBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.queryBackground;
@@ -241,6 +283,10 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.ratingBarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyleIndicator = global::ZonaAzulDigital.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.ratingBarStyleSmall = global::ZonaAzulDigital.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.reverseLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.rippleColor = global::ZonaAzulDigital.Droid.Resource.Attribute.rippleColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimAnimationDuration = global::ZonaAzulDigital.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.scrimVisibleHeightTrigger = global::ZonaAzulDigital.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchHintIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.searchHintIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.searchIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.searchViewStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.searchViewStyle;
@@ -252,12 +298,18 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showText = global::ZonaAzulDigital.Droid.Resource.Attribute.showText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.showTitle = global::ZonaAzulDigital.Droid.Resource.Attribute.showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.singleChoiceItemLayout = global::ZonaAzulDigital.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spanCount = global::ZonaAzulDigital.Droid.Resource.Attribute.spanCount;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinBars = global::ZonaAzulDigital.Droid.Resource.Attribute.spinBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinnerDropDownItemStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.spinnerDropDownItemStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.spinnerStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.spinnerStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.splitTrack = global::ZonaAzulDigital.Droid.Resource.Attribute.splitTrack;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.srcCompat = global::ZonaAzulDigital.Droid.Resource.Attribute.srcCompat;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.stackFromEnd = global::ZonaAzulDigital.Droid.Resource.Attribute.stackFromEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_above_anchor = global::ZonaAzulDigital.Droid.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsed = global::ZonaAzulDigital.Droid.Resource.Attribute.state_collapsed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.state_collapsible = global::ZonaAzulDigital.Droid.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.statusBarScrim = global::ZonaAzulDigital.Droid.Resource.Attribute.statusBarScrim;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subMenuArrow = global::ZonaAzulDigital.Droid.Resource.Attribute.subMenuArrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.submitBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.subtitle = global::ZonaAzulDigital.Droid.Resource.Attribute.subtitle;
@@ -269,6 +321,22 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.switchPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.switchStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.switchTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabBackground = global::ZonaAzulDigital.Droid.Resource.Attribute.tabBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabContentStart = global::ZonaAzulDigital.Droid.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabGravity = global::ZonaAzulDigital.Droid.Resource.Attribute.tabGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorColor = global::ZonaAzulDigital.Droid.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabIndicatorHeight = global::ZonaAzulDigital.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMaxWidth = global::ZonaAzulDigital.Droid.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMinWidth = global::ZonaAzulDigital.Droid.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabMode = global::ZonaAzulDigital.Droid.Resource.Attribute.tabMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.tabPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingBottom = global::ZonaAzulDigital.Droid.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingEnd = global::ZonaAzulDigital.Droid.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingStart = global::ZonaAzulDigital.Droid.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabPaddingTop = global::ZonaAzulDigital.Droid.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabSelectedTextColor = global::ZonaAzulDigital.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tabTextColor = global::ZonaAzulDigital.Droid.Resource.Attribute.tabTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAllCaps = global::ZonaAzulDigital.Droid.Resource.Attribute.textAllCaps;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceLargePopupMenu = global::ZonaAzulDigital.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceListItem = global::ZonaAzulDigital.Droid.Resource.Attribute.textAppearanceListItem;
@@ -278,6 +346,7 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSearchResultTitle = global::ZonaAzulDigital.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textAppearanceSmallPopupMenu = global::ZonaAzulDigital.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorAlertDialogListItem = global::ZonaAzulDigital.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorError = global::ZonaAzulDigital.Droid.Resource.Attribute.textColorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.textColorSearchUrl = global::ZonaAzulDigital.Droid.Resource.Attribute.textColorSearchUrl;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.theme = global::ZonaAzulDigital.Droid.Resource.Attribute.theme;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.thickness = global::ZonaAzulDigital.Droid.Resource.Attribute.thickness;
@@ -288,6 +357,7 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tickMarkTint = global::ZonaAzulDigital.Droid.Resource.Attribute.tickMarkTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.tickMarkTintMode = global::ZonaAzulDigital.Droid.Resource.Attribute.tickMarkTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.title = global::ZonaAzulDigital.Droid.Resource.Attribute.title;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleEnabled = global::ZonaAzulDigital.Droid.Resource.Attribute.titleEnabled;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMargin = global::ZonaAzulDigital.Droid.Resource.Attribute.titleMargin;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMarginBottom = global::ZonaAzulDigital.Droid.Resource.Attribute.titleMarginBottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleMarginEnd = global::ZonaAzulDigital.Droid.Resource.Attribute.titleMarginEnd;
@@ -297,11 +367,13 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextAppearance = global::ZonaAzulDigital.Droid.Resource.Attribute.titleTextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextColor = global::ZonaAzulDigital.Droid.Resource.Attribute.titleTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.titleTextStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarId = global::ZonaAzulDigital.Droid.Resource.Attribute.toolbarId;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarNavigationButtonStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.toolbarStyle = global::ZonaAzulDigital.Droid.Resource.Attribute.toolbarStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.track = global::ZonaAzulDigital.Droid.Resource.Attribute.track;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTint = global::ZonaAzulDigital.Droid.Resource.Attribute.trackTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.trackTintMode = global::ZonaAzulDigital.Droid.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.useCompatPadding = global::ZonaAzulDigital.Droid.Resource.Attribute.useCompatPadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.voiceIcon = global::ZonaAzulDigital.Droid.Resource.Attribute.voiceIcon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBar = global::ZonaAzulDigital.Droid.Resource.Attribute.windowActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Attribute.windowActionBarOverlay = global::ZonaAzulDigital.Droid.Resource.Attribute.windowActionBarOverlay;
@@ -357,6 +429,19 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.bright_foreground_material_light = global::ZonaAzulDigital.Droid.Resource.Color.bright_foreground_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_dark = global::ZonaAzulDigital.Droid.Resource.Color.button_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.button_material_light = global::ZonaAzulDigital.Droid.Resource.Color.button_material_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_bottom_navigation_shadow_color = global::ZonaAzulDigital.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_error = global::ZonaAzulDigital.Droid.Resource.Color.design_error;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_end_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_mid_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_shadow_start_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_end_inner_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_end_outer_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_top_inner_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_fab_stroke_top_outer_color = global::ZonaAzulDigital.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_snackbar_background_color = global::ZonaAzulDigital.Droid.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_textinput_error_color_dark = global::ZonaAzulDigital.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_textinput_error_color_light = global::ZonaAzulDigital.Droid.Resource.Color.design_textinput_error_color_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.design_tint_password_toggle = global::ZonaAzulDigital.Droid.Resource.Color.design_tint_password_toggle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_disabled_material_dark = global::ZonaAzulDigital.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_disabled_material_light = global::ZonaAzulDigital.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Color.dim_foreground_material_dark = global::ZonaAzulDigital.Droid.Resource.Color.dim_foreground_material_dark;
@@ -474,6 +559,44 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ZonaAzulDigital.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material = global::ZonaAzulDigital.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.abc_text_size_title_material_toolbar = global::ZonaAzulDigital.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_appbar_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_active_text_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_height = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_item_min_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_margin = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_shadow_height = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_navigation_text_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ZonaAzulDigital.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_border_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_image_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_mini = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_size_normal = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_fab_translation_z_pressed = global::ZonaAzulDigital.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_padding = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_icon_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_padding_bottom = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_navigation_separator_vertical_padding = global::ZonaAzulDigital.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_action_inline_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_background_corner_radius = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_elevation = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_min_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_horizontal = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_vertical = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_snackbar_text_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_max_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_scrollable_min_width = global::ZonaAzulDigital.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size = global::ZonaAzulDigital.Droid.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.design_tab_text_size_2line = global::ZonaAzulDigital.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_dark = global::ZonaAzulDigital.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.disabled_alpha_material_light = global::ZonaAzulDigital.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.highlight_alpha_material_colored = global::ZonaAzulDigital.Droid.Resource.Dimension.highlight_alpha_material_colored;
@@ -483,6 +606,9 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_alpha_material_light = global::ZonaAzulDigital.Droid.Resource.Dimension.hint_alpha_material_light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_pressed_alpha_material_dark = global::ZonaAzulDigital.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.hint_pressed_alpha_material_light = global::ZonaAzulDigital.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ZonaAzulDigital.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ZonaAzulDigital.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ZonaAzulDigital.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_icon_size = global::ZonaAzulDigital.Droid.Resource.Dimension.notification_action_icon_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_action_text_size = global::ZonaAzulDigital.Droid.Resource.Dimension.notification_action_text_size;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Dimension.notification_big_circle_margin = global::ZonaAzulDigital.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -581,6 +707,21 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ZonaAzulDigital.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_textfield_search_material = global::ZonaAzulDigital.Droid.Resource.Drawable.abc_textfield_search_material;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.abc_vector_test = global::ZonaAzulDigital.Droid.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_1 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_hide_password_1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_2 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_hide_password_2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_hide_password_3 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_hide_password_3;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_show_password;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_1 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_show_password_1;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_2 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_show_password_2;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.avd_show_password_3 = global::ZonaAzulDigital.Droid.Resource.Drawable.avd_show_password_3;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_bottom_navigation_item_background = global::ZonaAzulDigital.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_fab_background = global::ZonaAzulDigital.Droid.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_ic_visibility = global::ZonaAzulDigital.Droid.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_ic_visibility_off = global::ZonaAzulDigital.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_password_eye = global::ZonaAzulDigital.Droid.Resource.Drawable.design_password_eye;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.design_snackbar_background = global::ZonaAzulDigital.Droid.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.navigation_empty_icon = global::ZonaAzulDigital.Droid.Resource.Drawable.navigation_empty_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_action_background = global::ZonaAzulDigital.Droid.Resource.Drawable.notification_action_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_bg = global::ZonaAzulDigital.Droid.Resource.Drawable.notification_bg;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Drawable.notification_bg_low = global::ZonaAzulDigital.Droid.Resource.Drawable.notification_bg_low;
@@ -617,25 +758,44 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.activity_chooser_view_content = global::ZonaAzulDigital.Droid.Resource.Id.activity_chooser_view_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.add = global::ZonaAzulDigital.Droid.Resource.Id.add;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.alertTitle = global::ZonaAzulDigital.Droid.Resource.Id.alertTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.all = global::ZonaAzulDigital.Droid.Resource.Id.all;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.always = global::ZonaAzulDigital.Droid.Resource.Id.always;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.auto = global::ZonaAzulDigital.Droid.Resource.Id.auto;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.beginning = global::ZonaAzulDigital.Droid.Resource.Id.beginning;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.bottom = global::ZonaAzulDigital.Droid.Resource.Id.bottom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.buttonPanel = global::ZonaAzulDigital.Droid.Resource.Id.buttonPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.cancel_action = global::ZonaAzulDigital.Droid.Resource.Id.cancel_action;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center = global::ZonaAzulDigital.Droid.Resource.Id.center;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center_horizontal = global::ZonaAzulDigital.Droid.Resource.Id.center_horizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.center_vertical = global::ZonaAzulDigital.Droid.Resource.Id.center_vertical;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.checkbox = global::ZonaAzulDigital.Droid.Resource.Id.checkbox;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.chronometer = global::ZonaAzulDigital.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.clip_horizontal = global::ZonaAzulDigital.Droid.Resource.Id.clip_horizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.clip_vertical = global::ZonaAzulDigital.Droid.Resource.Id.clip_vertical;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.collapseActionView = global::ZonaAzulDigital.Droid.Resource.Id.collapseActionView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.contentPanel = global::ZonaAzulDigital.Droid.Resource.Id.contentPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.custom = global::ZonaAzulDigital.Droid.Resource.Id.custom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.customPanel = global::ZonaAzulDigital.Droid.Resource.Id.customPanel;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.decor_content_parent = global::ZonaAzulDigital.Droid.Resource.Id.decor_content_parent;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.default_activity_button = global::ZonaAzulDigital.Droid.Resource.Id.default_activity_button;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_bottom_sheet = global::ZonaAzulDigital.Droid.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_action_area = global::ZonaAzulDigital.Droid.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_action_area_stub = global::ZonaAzulDigital.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_menu_item_text = global::ZonaAzulDigital.Droid.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.design_navigation_view = global::ZonaAzulDigital.Droid.Resource.Id.design_navigation_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.disableHome = global::ZonaAzulDigital.Droid.Resource.Id.disableHome;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.edit_query = global::ZonaAzulDigital.Droid.Resource.Id.edit_query;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.end = global::ZonaAzulDigital.Droid.Resource.Id.end;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.end_padder = global::ZonaAzulDigital.Droid.Resource.Id.end_padder;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.enterAlways = global::ZonaAzulDigital.Droid.Resource.Id.enterAlways;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.enterAlwaysCollapsed = global::ZonaAzulDigital.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.exitUntilCollapsed = global::ZonaAzulDigital.Droid.Resource.Id.exitUntilCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.expand_activities_button = global::ZonaAzulDigital.Droid.Resource.Id.expand_activities_button;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.expanded_menu = global::ZonaAzulDigital.Droid.Resource.Id.expanded_menu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill = global::ZonaAzulDigital.Droid.Resource.Id.fill;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_horizontal = global::ZonaAzulDigital.Droid.Resource.Id.fill_horizontal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.fill_vertical = global::ZonaAzulDigital.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.@fixed = global::ZonaAzulDigital.Droid.Resource.Id.@fixed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.home = global::ZonaAzulDigital.Droid.Resource.Id.home;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.homeAsUp = global::ZonaAzulDigital.Droid.Resource.Id.homeAsUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.icon = global::ZonaAzulDigital.Droid.Resource.Id.icon;
@@ -643,29 +803,40 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.ifRoom = global::ZonaAzulDigital.Droid.Resource.Id.ifRoom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.image = global::ZonaAzulDigital.Droid.Resource.Id.image;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.info = global::ZonaAzulDigital.Droid.Resource.Id.info;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.item_touch_helper_previous_elevation = global::ZonaAzulDigital.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.largeLabel = global::ZonaAzulDigital.Droid.Resource.Id.largeLabel;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.left = global::ZonaAzulDigital.Droid.Resource.Id.left;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.line1 = global::ZonaAzulDigital.Droid.Resource.Id.line1;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.line3 = global::ZonaAzulDigital.Droid.Resource.Id.line3;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.listMode = global::ZonaAzulDigital.Droid.Resource.Id.listMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.list_item = global::ZonaAzulDigital.Droid.Resource.Id.list_item;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.masked = global::ZonaAzulDigital.Droid.Resource.Id.masked;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.media_actions = global::ZonaAzulDigital.Droid.Resource.Id.media_actions;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.middle = global::ZonaAzulDigital.Droid.Resource.Id.middle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.mini = global::ZonaAzulDigital.Droid.Resource.Id.mini;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.multiply = global::ZonaAzulDigital.Droid.Resource.Id.multiply;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.navigation_header_container = global::ZonaAzulDigital.Droid.Resource.Id.navigation_header_container;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.never = global::ZonaAzulDigital.Droid.Resource.Id.never;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.none = global::ZonaAzulDigital.Droid.Resource.Id.none;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.normal = global::ZonaAzulDigital.Droid.Resource.Id.normal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_background = global::ZonaAzulDigital.Droid.Resource.Id.notification_background;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column = global::ZonaAzulDigital.Droid.Resource.Id.notification_main_column;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.notification_main_column_container = global::ZonaAzulDigital.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parallax = global::ZonaAzulDigital.Droid.Resource.Id.parallax;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.parentPanel = global::ZonaAzulDigital.Droid.Resource.Id.parentPanel;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.pin = global::ZonaAzulDigital.Droid.Resource.Id.pin;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.progress_circular = global::ZonaAzulDigital.Droid.Resource.Id.progress_circular;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.progress_horizontal = global::ZonaAzulDigital.Droid.Resource.Id.progress_horizontal;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.radio = global::ZonaAzulDigital.Droid.Resource.Id.radio;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right = global::ZonaAzulDigital.Droid.Resource.Id.right;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right_icon = global::ZonaAzulDigital.Droid.Resource.Id.right_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.right_side = global::ZonaAzulDigital.Droid.Resource.Id.right_side;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.screen = global::ZonaAzulDigital.Droid.Resource.Id.screen;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scroll = global::ZonaAzulDigital.Droid.Resource.Id.scroll;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollIndicatorDown = global::ZonaAzulDigital.Droid.Resource.Id.scrollIndicatorDown;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollIndicatorUp = global::ZonaAzulDigital.Droid.Resource.Id.scrollIndicatorUp;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollView = global::ZonaAzulDigital.Droid.Resource.Id.scrollView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.scrollable = global::ZonaAzulDigital.Droid.Resource.Id.scrollable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_badge = global::ZonaAzulDigital.Droid.Resource.Id.search_badge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_bar = global::ZonaAzulDigital.Droid.Resource.Id.search_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.search_button = global::ZonaAzulDigital.Droid.Resource.Id.search_button;
@@ -681,11 +852,16 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showCustom = global::ZonaAzulDigital.Droid.Resource.Id.showCustom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showHome = global::ZonaAzulDigital.Droid.Resource.Id.showHome;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.showTitle = global::ZonaAzulDigital.Droid.Resource.Id.showTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.smallLabel = global::ZonaAzulDigital.Droid.Resource.Id.smallLabel;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_action = global::ZonaAzulDigital.Droid.Resource.Id.snackbar_action;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snackbar_text = global::ZonaAzulDigital.Droid.Resource.Id.snackbar_text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.snap = global::ZonaAzulDigital.Droid.Resource.Id.snap;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.spacer = global::ZonaAzulDigital.Droid.Resource.Id.spacer;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.split_action_bar = global::ZonaAzulDigital.Droid.Resource.Id.split_action_bar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_atop = global::ZonaAzulDigital.Droid.Resource.Id.src_atop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_in = global::ZonaAzulDigital.Droid.Resource.Id.src_in;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.src_over = global::ZonaAzulDigital.Droid.Resource.Id.src_over;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.start = global::ZonaAzulDigital.Droid.Resource.Id.start;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.status_bar_latest_event_content = global::ZonaAzulDigital.Droid.Resource.Id.status_bar_latest_event_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submenuarrow = global::ZonaAzulDigital.Droid.Resource.Id.submenuarrow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.submit_area = global::ZonaAzulDigital.Droid.Resource.Id.submit_area;
@@ -694,19 +870,32 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text2 = global::ZonaAzulDigital.Droid.Resource.Id.text2;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoButtons = global::ZonaAzulDigital.Droid.Resource.Id.textSpacerNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textSpacerNoTitle = global::ZonaAzulDigital.Droid.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.text_input_password_toggle = global::ZonaAzulDigital.Droid.Resource.Id.text_input_password_toggle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_counter = global::ZonaAzulDigital.Droid.Resource.Id.textinput_counter;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.textinput_error = global::ZonaAzulDigital.Droid.Resource.Id.textinput_error;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.time = global::ZonaAzulDigital.Droid.Resource.Id.time;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.title = global::ZonaAzulDigital.Droid.Resource.Id.title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.titleDividerNoCustom = global::ZonaAzulDigital.Droid.Resource.Id.titleDividerNoCustom;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.title_template = global::ZonaAzulDigital.Droid.Resource.Id.title_template;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.top = global::ZonaAzulDigital.Droid.Resource.Id.top;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.topPanel = global::ZonaAzulDigital.Droid.Resource.Id.topPanel;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.touch_outside = global::ZonaAzulDigital.Droid.Resource.Id.touch_outside;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_current_scene = global::ZonaAzulDigital.Droid.Resource.Id.transition_current_scene;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.transition_scene_layoutid_cache = global::ZonaAzulDigital.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.up = global::ZonaAzulDigital.Droid.Resource.Id.up;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.useLogo = global::ZonaAzulDigital.Droid.Resource.Id.useLogo;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.view_offset_helper = global::ZonaAzulDigital.Droid.Resource.Id.view_offset_helper;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.visible = global::ZonaAzulDigital.Droid.Resource.Id.visible;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.withText = global::ZonaAzulDigital.Droid.Resource.Id.withText;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Id.wrap_content = global::ZonaAzulDigital.Droid.Resource.Id.wrap_content;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.abc_config_activityDefaultDur = global::ZonaAzulDigital.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.abc_config_activityShortDur = global::ZonaAzulDigital.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.app_bar_elevation_anim_duration = global::ZonaAzulDigital.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.bottom_sheet_slide_duration = global::ZonaAzulDigital.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.cancel_button_image_alpha = global::ZonaAzulDigital.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.design_snackbar_text_max_lines = global::ZonaAzulDigital.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.hide_password_duration = global::ZonaAzulDigital.Droid.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.show_password_duration = global::ZonaAzulDigital.Droid.Resource.Integer.show_password_duration;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Integer.status_bar_notification_info_maxnum = global::ZonaAzulDigital.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_title_item = global::ZonaAzulDigital.Droid.Resource.Layout.abc_action_bar_title_item;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_action_bar_up_container = global::ZonaAzulDigital.Droid.Resource.Layout.abc_action_bar_up_container;
@@ -735,6 +924,20 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ZonaAzulDigital.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_search_view = global::ZonaAzulDigital.Droid.Resource.Layout.abc_search_view;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.abc_select_dialog_material = global::ZonaAzulDigital.Droid.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_navigation_item = global::ZonaAzulDigital.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_bottom_sheet_dialog = global::ZonaAzulDigital.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_snackbar = global::ZonaAzulDigital.Droid.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_snackbar_include = global::ZonaAzulDigital.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_tab_icon = global::ZonaAzulDigital.Droid.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_layout_tab_text = global::ZonaAzulDigital.Droid.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_menu_item_action_area = global::ZonaAzulDigital.Droid.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_header = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_separator = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_item_subheader = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_navigation_menu_item = global::ZonaAzulDigital.Droid.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.design_text_input_password_icon = global::ZonaAzulDigital.Droid.Resource.Layout.design_text_input_password_icon;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action = global::ZonaAzulDigital.Droid.Resource.Layout.notification_action;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_action_tombstone = global::ZonaAzulDigital.Droid.Resource.Layout.notification_action_tombstone;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Layout.notification_media_action = global::ZonaAzulDigital.Droid.Resource.Layout.notification_media_action;
@@ -785,12 +988,21 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_shareactionprovider_share_with = global::ZonaAzulDigital.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_shareactionprovider_share_with_application = global::ZonaAzulDigital.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.abc_toolbar_collapse_description = global::ZonaAzulDigital.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.appbar_scrolling_view_behavior = global::ZonaAzulDigital.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.bottom_sheet_behavior = global::ZonaAzulDigital.Droid.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.character_counter_pattern = global::ZonaAzulDigital.Droid.Resource.String.character_counter_pattern;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.password_toggle_content_description = global::ZonaAzulDigital.Droid.Resource.String.password_toggle_content_description;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye = global::ZonaAzulDigital.Droid.Resource.String.path_password_eye;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye_mask_strike_through = global::ZonaAzulDigital.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_eye_mask_visible = global::ZonaAzulDigital.Droid.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.path_password_strike_through = global::ZonaAzulDigital.Droid.Resource.String.path_password_strike_through;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.search_menu_title = global::ZonaAzulDigital.Droid.Resource.String.search_menu_title;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.String.status_bar_notification_info_overflow = global::ZonaAzulDigital.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.AlertDialog_AppCompat = global::ZonaAzulDigital.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.AlertDialog_AppCompat_Light = global::ZonaAzulDigital.Droid.Resource.Style.AlertDialog_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_AppCompat_Dialog = global::ZonaAzulDigital.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_AppCompat_DropDownUp = global::ZonaAzulDigital.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Animation_Design_BottomSheetDialog = global::ZonaAzulDigital.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_AlertDialog_AppCompat = global::ZonaAzulDigital.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ZonaAzulDigital.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Animation_AppCompat_Dialog = global::ZonaAzulDigital.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -943,6 +1155,8 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ZonaAzulDigital.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ZonaAzulDigital.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ZonaAzulDigital.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_Design_AppBarLayout = global::ZonaAzulDigital.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Base_Widget_Design_TabLayout = global::ZonaAzulDigital.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat = global::ZonaAzulDigital.Droid.Resource.Style.Platform_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_AppCompat_Light = global::ZonaAzulDigital.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ZonaAzulDigital.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
@@ -1026,6 +1240,13 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Error = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Hint = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_Design_Tab = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_Design_Tab;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_StatusBar_EventContent = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::ZonaAzulDigital.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
@@ -1055,6 +1276,12 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ZonaAzulDigital.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ZonaAzulDigital.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_AppCompat_NoActionBar = global::ZonaAzulDigital.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_BottomSheetDialog = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_Light_NoActionBar = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Theme_Design_NoActionBar = global::ZonaAzulDigital.Droid.Resource.Style.Theme_Design_NoActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat = global::ZonaAzulDigital.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ZonaAzulDigital.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ZonaAzulDigital.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -1136,6 +1363,17 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ZonaAzulDigital.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_Toolbar = global::ZonaAzulDigital.Droid.Resource.Style.Widget_AppCompat_Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ZonaAzulDigital.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_AppBarLayout = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_BottomNavigationView = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_BottomSheet_Modal = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_CollapsingToolbar = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_CoordinatorLayout = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_FloatingActionButton = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_NavigationView = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_Snackbar = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TabLayout = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Style.Widget_Design_TextInputLayout = global::ZonaAzulDigital.Droid.Resource.Style.Widget_Design_TextInputLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Xml.Empty = global::ZonaAzulDigital.Droid.Resource.Xml.Empty;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar = global::ZonaAzulDigital.Droid.Resource.Styleable.ActionBar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ActionBar_background = global::ZonaAzulDigital.Droid.Resource.Styleable.ActionBar_background;
@@ -1190,6 +1428,16 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_showTitle = global::ZonaAzulDigital.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_android_background = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_elevation = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_expanded = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ZonaAzulDigital.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatImageView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_android_src = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatImageView_srcCompat = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -1325,8 +1573,38 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ZonaAzulDigital.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_elevation = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemIconTint = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_itemTextColor = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomNavigationView_menu = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ZonaAzulDigital.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.ButtonBarLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ButtonBarLayout_allowStacking = global::ZonaAzulDigital.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_title = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ZonaAzulDigital.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem = global::ZonaAzulDigital.Droid.Resource.Styleable.ColorStateListItem;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem_alpha = global::ZonaAzulDigital.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ColorStateListItem_android_alpha = global::ZonaAzulDigital.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
@@ -1335,6 +1613,21 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_android_button = global::ZonaAzulDigital.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_buttonTint = global::ZonaAzulDigital.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CompoundButton_buttonTintMode = global::ZonaAzulDigital.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_keylines = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ZonaAzulDigital.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme = global::ZonaAzulDigital.Droid.Resource.Styleable.DesignTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ZonaAzulDigital.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ZonaAzulDigital.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DesignTheme_textColorError = global::ZonaAzulDigital.Droid.Resource.Styleable.DesignTheme_textColorError;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -1344,6 +1637,21 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_spinBars = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.DrawerArrowToggle_thickness = global::ZonaAzulDigital.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_backgroundTint = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_borderWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_elevation = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_fabSize = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_rippleColor = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ZonaAzulDigital.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ZonaAzulDigital.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ZonaAzulDigital.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ZonaAzulDigital.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat = global::ZonaAzulDigital.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ZonaAzulDigital.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ZonaAzulDigital.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -1409,6 +1717,17 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.MvxListView_MvxItemTemplate = global::ZonaAzulDigital.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_background = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_android_maxWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_elevation = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_headerLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemIconTint = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_itemTextColor = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.NavigationView_menu = global::ZonaAzulDigital.Droid.Resource.Styleable.NavigationView_menu;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow = global::ZonaAzulDigital.Droid.Resource.Styleable.PopupWindow;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ZonaAzulDigital.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.PopupWindow_android_popupBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
@@ -1418,6 +1737,17 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView = global::ZonaAzulDigital.Droid.Resource.Styleable.RecycleListView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ZonaAzulDigital.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ZonaAzulDigital.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_android_orientation = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_layoutManager = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_reverseLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_spanCount = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.RecyclerView_stackFromEnd = global::ZonaAzulDigital.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrimInsetsFrameLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ZonaAzulDigital.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrollingViewBehavior_Layout = global::ZonaAzulDigital.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ZonaAzulDigital.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_android_focusable = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_android_imeOptions = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -1436,6 +1766,10 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_submitBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_suggestionRowLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SearchView_voiceIcon = global::ZonaAzulDigital.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_elevation = global::ZonaAzulDigital.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner = global::ZonaAzulDigital.Droid.Resource.Styleable.Spinner;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_dropDownWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Spinner_android_entries = global::ZonaAzulDigital.Droid.Resource.Styleable.Spinner_android_entries;
@@ -1457,6 +1791,27 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_track = global::ZonaAzulDigital.Droid.Resource.Styleable.SwitchCompat_track;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_trackTint = global::ZonaAzulDigital.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.SwitchCompat_trackTintMode = global::ZonaAzulDigital.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem = global::ZonaAzulDigital.Droid.Resource.Styleable.TabItem;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_icon = global::ZonaAzulDigital.Droid.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_layout = global::ZonaAzulDigital.Droid.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabItem_android_text = global::ZonaAzulDigital.Droid.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabBackground = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabContentStart = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabGravity = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorColor = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMaxWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMinWidth = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabMode = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPadding = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingBottom = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingEnd = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingStart = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabPaddingTop = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TabLayout_tabTextColor = global::ZonaAzulDigital.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowColor = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_shadowDx = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
@@ -1468,6 +1823,23 @@ namespace ZonaAzulDigital.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_textStyle = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance_android_textStyle;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_android_typeface = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextAppearance_textAllCaps = global::ZonaAzulDigital.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_hint = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_android_textColorHint = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterMaxLength = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ZonaAzulDigital.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar = global::ZonaAzulDigital.Droid.Resource.Styleable.Toolbar;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_gravity = global::ZonaAzulDigital.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.Toolbar_android_minHeight = global::ZonaAzulDigital.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -2713,44 +3085,44 @@ namespace ZonaAzulDigital.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f09004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131296330;
-			
-			// aapt resource value: 0x7f09004b
-			public const int abc_background_cache_hint_selector_material_light = 2131296331;
-			
-			// aapt resource value: 0x7f09004c
-			public const int abc_btn_colored_borderless_text_material = 2131296332;
-			
 			// aapt resource value: 0x7f09004d
-			public const int abc_btn_colored_text_material = 2131296333;
+			public const int abc_background_cache_hint_selector_material_dark = 2131296333;
 			
 			// aapt resource value: 0x7f09004e
-			public const int abc_color_highlight_material = 2131296334;
+			public const int abc_background_cache_hint_selector_material_light = 2131296334;
 			
 			// aapt resource value: 0x7f09004f
-			public const int abc_hint_foreground_material_dark = 2131296335;
+			public const int abc_btn_colored_borderless_text_material = 2131296335;
 			
 			// aapt resource value: 0x7f090050
-			public const int abc_hint_foreground_material_light = 2131296336;
+			public const int abc_btn_colored_text_material = 2131296336;
+			
+			// aapt resource value: 0x7f090051
+			public const int abc_color_highlight_material = 2131296337;
+			
+			// aapt resource value: 0x7f090052
+			public const int abc_hint_foreground_material_dark = 2131296338;
+			
+			// aapt resource value: 0x7f090053
+			public const int abc_hint_foreground_material_light = 2131296339;
 			
 			// aapt resource value: 0x7f090005
 			public const int abc_input_method_navigation_guard = 2131296261;
 			
-			// aapt resource value: 0x7f090051
-			public const int abc_primary_text_disable_only_material_dark = 2131296337;
-			
-			// aapt resource value: 0x7f090052
-			public const int abc_primary_text_disable_only_material_light = 2131296338;
-			
-			// aapt resource value: 0x7f090053
-			public const int abc_primary_text_material_dark = 2131296339;
-			
 			// aapt resource value: 0x7f090054
-			public const int abc_primary_text_material_light = 2131296340;
+			public const int abc_primary_text_disable_only_material_dark = 2131296340;
 			
 			// aapt resource value: 0x7f090055
-			public const int abc_search_url_text = 2131296341;
+			public const int abc_primary_text_disable_only_material_light = 2131296341;
+			
+			// aapt resource value: 0x7f090056
+			public const int abc_primary_text_material_dark = 2131296342;
+			
+			// aapt resource value: 0x7f090057
+			public const int abc_primary_text_material_light = 2131296343;
+			
+			// aapt resource value: 0x7f090058
+			public const int abc_search_url_text = 2131296344;
 			
 			// aapt resource value: 0x7f090006
 			public const int abc_search_url_text_normal = 2131296262;
@@ -2761,32 +3133,35 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f090008
 			public const int abc_search_url_text_selected = 2131296264;
 			
-			// aapt resource value: 0x7f090056
-			public const int abc_secondary_text_material_dark = 2131296342;
-			
-			// aapt resource value: 0x7f090057
-			public const int abc_secondary_text_material_light = 2131296343;
-			
-			// aapt resource value: 0x7f090058
-			public const int abc_tint_btn_checkable = 2131296344;
-			
 			// aapt resource value: 0x7f090059
-			public const int abc_tint_default = 2131296345;
+			public const int abc_secondary_text_material_dark = 2131296345;
 			
 			// aapt resource value: 0x7f09005a
-			public const int abc_tint_edittext = 2131296346;
+			public const int abc_secondary_text_material_light = 2131296346;
 			
 			// aapt resource value: 0x7f09005b
-			public const int abc_tint_seek_thumb = 2131296347;
+			public const int abc_tint_btn_checkable = 2131296347;
 			
 			// aapt resource value: 0x7f09005c
-			public const int abc_tint_spinner = 2131296348;
+			public const int abc_tint_default = 2131296348;
 			
 			// aapt resource value: 0x7f09005d
-			public const int abc_tint_switch_thumb = 2131296349;
+			public const int abc_tint_edittext = 2131296349;
 			
 			// aapt resource value: 0x7f09005e
-			public const int abc_tint_switch_track = 2131296350;
+			public const int abc_tint_seek_thumb = 2131296350;
+			
+			// aapt resource value: 0x7f09005f
+			public const int abc_tint_spinner = 2131296351;
+			
+			// aapt resource value: 0x7f090060
+			public const int abc_tint_switch_thumb = 2131296352;
+			
+			// aapt resource value: 0x7f090061
+			public const int abc_tint_switch_track = 2131296353;
+			
+			// aapt resource value: 0x7f09004c
+			public const int accent = 2131296332;
 			
 			// aapt resource value: 0x7f090009
 			public const int accent_material_dark = 2131296265;
@@ -2845,8 +3220,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f09003f
 			public const int design_bottom_navigation_shadow_color = 2131296319;
 			
-			// aapt resource value: 0x7f09005f
-			public const int design_error = 2131296351;
+			// aapt resource value: 0x7f090062
+			public const int design_error = 2131296354;
 			
 			// aapt resource value: 0x7f090040
 			public const int design_fab_shadow_end_color = 2131296320;
@@ -2878,8 +3253,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f090049
 			public const int design_textinput_error_color_light = 2131296329;
 			
-			// aapt resource value: 0x7f090060
-			public const int design_tint_password_toggle = 2131296352;
+			// aapt resource value: 0x7f090063
+			public const int design_tint_password_toggle = 2131296355;
 			
 			// aapt resource value: 0x7f090017
 			public const int dim_foreground_disabled_material_dark = 2131296279;
@@ -2950,6 +3325,12 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f09002c
 			public const int notification_material_background_media_default_color = 2131296300;
 			
+			// aapt resource value: 0x7f09004a
+			public const int primary = 2131296330;
+			
+			// aapt resource value: 0x7f09004b
+			public const int primary_dark = 2131296331;
+			
 			// aapt resource value: 0x7f09002d
 			public const int primary_dark_material_dark = 2131296301;
 			
@@ -2998,11 +3379,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f09003c
 			public const int switch_thumb_disabled_material_light = 2131296316;
 			
-			// aapt resource value: 0x7f090061
-			public const int switch_thumb_material_dark = 2131296353;
+			// aapt resource value: 0x7f090064
+			public const int switch_thumb_material_dark = 2131296356;
 			
-			// aapt resource value: 0x7f090062
-			public const int switch_thumb_material_light = 2131296354;
+			// aapt resource value: 0x7f090065
+			public const int switch_thumb_material_light = 2131296357;
 			
 			// aapt resource value: 0x7f09003d
 			public const int switch_thumb_normal_material_dark = 2131296317;
@@ -4330,8 +4711,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0010
 			public const int MvxBindingTagUnique = 2131427344;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int action0 = 2131427486;
+			// aapt resource value: 0x7f0b00a1
+			public const int action0 = 2131427489;
 			
 			// aapt resource value: 0x7f0b0066
 			public const int action_bar = 2131427430;
@@ -4354,17 +4735,17 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0043
 			public const int action_bar_title = 2131427395;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int action_container = 2131427483;
+			// aapt resource value: 0x7f0b009e
+			public const int action_container = 2131427486;
 			
 			// aapt resource value: 0x7f0b0067
 			public const int action_context_bar = 2131427431;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int action_divider = 2131427490;
+			// aapt resource value: 0x7f0b00a5
+			public const int action_divider = 2131427493;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int action_image = 2131427484;
+			// aapt resource value: 0x7f0b009f
+			public const int action_image = 2131427487;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -4381,11 +4762,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0045
 			public const int action_mode_close_button = 2131427397;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int action_text = 2131427485;
+			// aapt resource value: 0x7f0b00a0
+			public const int action_text = 2131427488;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int actions = 2131427499;
+			// aapt resource value: 0x7f0b00ae
+			public const int actions = 2131427502;
 			
 			// aapt resource value: 0x7f0b0046
 			public const int activity_chooser_view_content = 2131427398;
@@ -4414,8 +4795,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int buttonPanel = 2131427405;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int cancel_action = 2131427487;
+			// aapt resource value: 0x7f0b00a2
+			public const int cancel_action = 2131427490;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int center = 2131427378;
@@ -4429,8 +4810,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b005d
 			public const int checkbox = 2131427421;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int chronometer = 2131427495;
+			// aapt resource value: 0x7f0b00aa
+			public const int chronometer = 2131427498;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int clip_horizontal = 2131427387;
@@ -4474,14 +4855,20 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0014
 			public const int disableHome = 2131427348;
 			
+			// aapt resource value: 0x7f0b0081
+			public const int drawerLayout = 2131427457;
+			
+			// aapt resource value: 0x7f0b0083
+			public const int drawerListView = 2131427459;
+			
 			// aapt resource value: 0x7f0b0068
 			public const int edit_query = 2131427432;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int end = 2131427363;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int end_padder = 2131427505;
+			// aapt resource value: 0x7f0b00b4
+			public const int end_padder = 2131427508;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int enterAlways = 2131427372;
@@ -4510,6 +4897,9 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0041
 			public const int @fixed = 2131427393;
 			
+			// aapt resource value: 0x7f0b0082
+			public const int frameLayout = 2131427458;
+			
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
 			
@@ -4519,8 +4909,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b004b
 			public const int icon = 2131427403;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int icon_group = 2131427500;
+			// aapt resource value: 0x7f0b00af
+			public const int icon_group = 2131427503;
 			
 			// aapt resource value: 0x7f0b0027
 			public const int ifRoom = 2131427367;
@@ -4528,8 +4918,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0048
 			public const int image = 2131427400;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int info = 2131427496;
+			// aapt resource value: 0x7f0b00ab
+			public const int info = 2131427499;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
@@ -4540,11 +4930,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0036
 			public const int left = 2131427382;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int line1 = 2131427501;
+			// aapt resource value: 0x7f0b00b0
+			public const int line1 = 2131427504;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int line3 = 2131427503;
+			// aapt resource value: 0x7f0b00b2
+			public const int line3 = 2131427506;
 			
 			// aapt resource value: 0x7f0b0011
 			public const int listMode = 2131427345;
@@ -4552,11 +4942,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b004a
 			public const int list_item = 2131427402;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int masked = 2131427507;
+			// aapt resource value: 0x7f0b00b7
+			public const int masked = 2131427511;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int media_actions = 2131427489;
+			// aapt resource value: 0x7f0b00a4
+			public const int media_actions = 2131427492;
 			
 			// aapt resource value: 0x7f0b0024
 			public const int middle = 2131427364;
@@ -4564,80 +4954,80 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0040
 			public const int mini = 2131427392;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int mr_art = 2131427469;
-			
-			// aapt resource value: 0x7f0b0082
-			public const int mr_chooser_list = 2131427458;
+			// aapt resource value: 0x7f0b0090
+			public const int mr_art = 2131427472;
 			
 			// aapt resource value: 0x7f0b0085
-			public const int mr_chooser_route_desc = 2131427461;
-			
-			// aapt resource value: 0x7f0b0083
-			public const int mr_chooser_route_icon = 2131427459;
-			
-			// aapt resource value: 0x7f0b0084
-			public const int mr_chooser_route_name = 2131427460;
-			
-			// aapt resource value: 0x7f0b0081
-			public const int mr_chooser_title = 2131427457;
-			
-			// aapt resource value: 0x7f0b008a
-			public const int mr_close = 2131427466;
-			
-			// aapt resource value: 0x7f0b0090
-			public const int mr_control_divider = 2131427472;
-			
-			// aapt resource value: 0x7f0b0096
-			public const int mr_control_playback_ctrl = 2131427478;
-			
-			// aapt resource value: 0x7f0b0099
-			public const int mr_control_subtitle = 2131427481;
-			
-			// aapt resource value: 0x7f0b0098
-			public const int mr_control_title = 2131427480;
-			
-			// aapt resource value: 0x7f0b0097
-			public const int mr_control_title_container = 2131427479;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int mr_custom_control = 2131427467;
-			
-			// aapt resource value: 0x7f0b008c
-			public const int mr_default_control = 2131427468;
-			
-			// aapt resource value: 0x7f0b0087
-			public const int mr_dialog_area = 2131427463;
-			
-			// aapt resource value: 0x7f0b0086
-			public const int mr_expandable_area = 2131427462;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int mr_group_expand_collapse = 2131427482;
-			
-			// aapt resource value: 0x7f0b008e
-			public const int mr_media_main_control = 2131427470;
-			
-			// aapt resource value: 0x7f0b0089
-			public const int mr_name = 2131427465;
-			
-			// aapt resource value: 0x7f0b008f
-			public const int mr_playback_control = 2131427471;
+			public const int mr_chooser_list = 2131427461;
 			
 			// aapt resource value: 0x7f0b0088
-			public const int mr_title_bar = 2131427464;
+			public const int mr_chooser_route_desc = 2131427464;
+			
+			// aapt resource value: 0x7f0b0086
+			public const int mr_chooser_route_icon = 2131427462;
+			
+			// aapt resource value: 0x7f0b0087
+			public const int mr_chooser_route_name = 2131427463;
+			
+			// aapt resource value: 0x7f0b0084
+			public const int mr_chooser_title = 2131427460;
+			
+			// aapt resource value: 0x7f0b008d
+			public const int mr_close = 2131427469;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int mr_control_divider = 2131427475;
+			
+			// aapt resource value: 0x7f0b0099
+			public const int mr_control_playback_ctrl = 2131427481;
+			
+			// aapt resource value: 0x7f0b009c
+			public const int mr_control_subtitle = 2131427484;
+			
+			// aapt resource value: 0x7f0b009b
+			public const int mr_control_title = 2131427483;
+			
+			// aapt resource value: 0x7f0b009a
+			public const int mr_control_title_container = 2131427482;
+			
+			// aapt resource value: 0x7f0b008e
+			public const int mr_custom_control = 2131427470;
+			
+			// aapt resource value: 0x7f0b008f
+			public const int mr_default_control = 2131427471;
+			
+			// aapt resource value: 0x7f0b008a
+			public const int mr_dialog_area = 2131427466;
+			
+			// aapt resource value: 0x7f0b0089
+			public const int mr_expandable_area = 2131427465;
+			
+			// aapt resource value: 0x7f0b009d
+			public const int mr_group_expand_collapse = 2131427485;
 			
 			// aapt resource value: 0x7f0b0091
-			public const int mr_volume_control = 2131427473;
+			public const int mr_media_main_control = 2131427473;
+			
+			// aapt resource value: 0x7f0b008c
+			public const int mr_name = 2131427468;
 			
 			// aapt resource value: 0x7f0b0092
-			public const int mr_volume_group_list = 2131427474;
+			public const int mr_playback_control = 2131427474;
+			
+			// aapt resource value: 0x7f0b008b
+			public const int mr_title_bar = 2131427467;
 			
 			// aapt resource value: 0x7f0b0094
-			public const int mr_volume_item_icon = 2131427476;
+			public const int mr_volume_control = 2131427476;
 			
 			// aapt resource value: 0x7f0b0095
-			public const int mr_volume_slider = 2131427477;
+			public const int mr_volume_group_list = 2131427477;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int mr_volume_item_icon = 2131427479;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int mr_volume_slider = 2131427480;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int multiply = 2131427356;
@@ -4654,14 +5044,14 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0012
 			public const int normal = 2131427346;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int notification_background = 2131427498;
+			// aapt resource value: 0x7f0b00ad
+			public const int notification_background = 2131427501;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int notification_main_column = 2131427492;
+			// aapt resource value: 0x7f0b00a7
+			public const int notification_main_column = 2131427495;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int notification_main_column_container = 2131427491;
+			// aapt resource value: 0x7f0b00a6
+			public const int notification_main_column_container = 2131427494;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int parallax = 2131427385;
@@ -4684,11 +5074,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0037
 			public const int right = 2131427383;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int right_icon = 2131427497;
+			// aapt resource value: 0x7f0b00ac
+			public const int right_icon = 2131427500;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int right_side = 2131427493;
+			// aapt resource value: 0x7f0b00a8
+			public const int right_side = 2131427496;
 			
 			// aapt resource value: 0x7f0b001d
 			public const int screen = 2131427357;
@@ -4783,8 +5173,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0038
 			public const int start = 2131427384;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int status_bar_latest_event_content = 2131427488;
+			// aapt resource value: 0x7f0b00a3
+			public const int status_bar_latest_event_content = 2131427491;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int submenuarrow = 2131427424;
@@ -4795,11 +5185,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0013
 			public const int tabMode = 2131427347;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int text = 2131427504;
+			// aapt resource value: 0x7f0b00b3
+			public const int text = 2131427507;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int text2 = 2131427502;
+			// aapt resource value: 0x7f0b00b1
+			public const int text2 = 2131427505;
 			
 			// aapt resource value: 0x7f0b0054
 			public const int textSpacerNoButtons = 2131427412;
@@ -4816,8 +5206,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b000d
 			public const int textinput_error = 2131427341;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int time = 2131427494;
+			// aapt resource value: 0x7f0b00a9
+			public const int time = 2131427497;
 			
 			// aapt resource value: 0x7f0b004c
 			public const int title = 2131427404;
@@ -4827,6 +5217,9 @@ namespace ZonaAzulDigital.Droid
 			
 			// aapt resource value: 0x7f0b0059
 			public const int title_template = 2131427417;
+			
+			// aapt resource value: 0x7f0b00b5
+			public const int toolbar = 2131427509;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int top = 2131427371;
@@ -4852,11 +5245,11 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int visible = 2131427506;
+			// aapt resource value: 0x7f0b00b6
+			public const int visible = 2131427510;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int volume_item_container = 2131427475;
+			// aapt resource value: 0x7f0b0096
+			public const int volume_item_container = 2131427478;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int withText = 2131427369;
@@ -5096,64 +5489,73 @@ namespace ZonaAzulDigital.Droid
 			public const int mr_volume_control = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_action = 2130903090;
+			public const int MyListView = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_action_tombstone = 2130903091;
+			public const int MySettingsView = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_media_action = 2130903092;
+			public const int notification_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_media_cancel_action = 2130903093;
+			public const int notification_action_tombstone = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media = 2130903094;
+			public const int notification_media_action = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_custom = 2130903095;
+			public const int notification_media_cancel_action = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media_narrow = 2130903096;
+			public const int notification_template_big_media = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_narrow_custom = 2130903097;
+			public const int notification_template_big_media_custom = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_custom_big = 2130903098;
+			public const int notification_template_big_media_narrow = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_icon_group = 2130903099;
+			public const int notification_template_big_media_narrow_custom = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_lines_media = 2130903100;
+			public const int notification_template_custom_big = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_media = 2130903101;
+			public const int notification_template_icon_group = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_media_custom = 2130903102;
+			public const int notification_template_lines_media = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_part_chronometer = 2130903103;
+			public const int notification_template_media = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_part_time = 2130903104;
+			public const int notification_template_media_custom = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int select_dialog_item_material = 2130903105;
+			public const int notification_template_part_chronometer = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int select_dialog_multichoice_material = 2130903106;
+			public const int notification_template_part_time = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int select_dialog_singlechoice_material = 2130903107;
+			public const int select_dialog_item_material = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int SplashScreen = 2130903108;
+			public const int select_dialog_multichoice_material = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int support_simple_spinner_dropdown_item = 2130903109;
+			public const int select_dialog_singlechoice_material = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int SplashScreen = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int support_simple_spinner_dropdown_item = 2130903111;
+			
+			// aapt resource value: 0x7f030048
+			public const int Toolbar = 2130903112;
 			
 			static Layout()
 			{
@@ -5167,6 +5569,12 @@ namespace ZonaAzulDigital.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0c0041
+			public const int CloseDrawerString = 2131492929;
+			
+			// aapt resource value: 0x7f0c0040
+			public const int OpenDrawerString = 2131492928;
 			
 			// aapt resource value: 0x7f0c0015
 			public const int abc_action_bar_home_description = 2131492885;

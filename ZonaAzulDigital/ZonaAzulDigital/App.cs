@@ -1,5 +1,4 @@
 using MvvmCross.Platform.IoC;
-
 using ZonaAzulDigital.Core.ViewModels;
 
 namespace ZonaAzulDigital.Core
@@ -13,7 +12,7 @@ namespace ZonaAzulDigital.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
                                   
-            RegisterAppStart<MainViewModel>();
+            RegisterAppStart<HomeViewModel>();
         }
     }
 }

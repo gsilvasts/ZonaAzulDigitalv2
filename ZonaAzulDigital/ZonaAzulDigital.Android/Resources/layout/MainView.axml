@@ -3,31 +3,62 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:textAlignment="center">
+    <ImageView
+        android:src="@android:drawable/cet.jpg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:numeric="integer"
         android:hint="CPF"
+        android:textColorHint="#808080"
         local:MvxBind="txtCPF Text" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30.0dp"
+        android:id="@+id/space1" />
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="30dp"
         android:password="true"
         android:hint="Senha"
-        local:MvxBind="txtSenha Text" />
+        android:textColorHint="#808080"
+        local:MvxBind="txtSenha Text"
+        android:id="@+id/editText1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30.0dp"
+        android:id="@+id/space1" />
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="179.0dp"
+        android:layout_height="54.0dp"
         android:text="ENTRAR"
         android:textSize="30dp"
-        local:MvxBind="Click LoginTextCommand" />
+        local:MvxBind="Click LoginTextCommand"
+        android:layout_marginLeft="100"
+        android:layout_marginRight="46.0"
+        android:textColor="#ffffff"
+        android:background="#099bdd" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30.0dp"
+        android:id="@+id/space1" />
     <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="179.0dp"
+        android:layout_height="54.0dp"
         android:text="CADASTRO"
         android:textSize="30dp"
-        local:MvxBind="Click CadastroTextCommand" />
+        local:MvxBind="Click CadastroTextCommand"
+        android:layout_marginLeft="100"
+        android:layout_marginRight="46.0d"
+        android:background="#099bdd"
+        android:textColor="#ffffff"
+        android:id="@+id/button1" />
 </LinearLayout>

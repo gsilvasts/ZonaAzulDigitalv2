@@ -1,17 +1,13 @@
 using Android.App;
 using Android.Content.PM;
-using Android.OS;
-using Android.Views;
-using Android.Widget;
 using MvvmCross.Droid.Views;
-using ZonaAzulDigital.Droid.Views;
 
 namespace ZonaAzulDigital.Droid
 {
     [Activity(
         Label = "ZonaAzulDigital.Droid"
         , MainLauncher = true
-        , Icon = "@drawable/icon"
+        , Icon = "@mipmap/icon"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
@@ -22,5 +18,4 @@ namespace ZonaAzulDigital.Droid
         {
         }
     }
-
 }
