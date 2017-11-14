@@ -12,7 +12,7 @@ namespace ZonaAzulDigital.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
                                   
-            RegisterAppStart<HomeViewModel>();
+            RegisterAppStart<MainViewModel>();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
-using MvvmCross.Droid.Support.V7.AppCompat;
+
 
 namespace ZonaAzulDigital.Droid
 {
@@ -31,13 +31,7 @@ namespace ZonaAzulDigital.Droid
             typeof(global::Android.Support.V7.Widget.Toolbar).Assembly,
         };
 
-        protected override IMvxAndroidViewPresenter CreateViewPresenter()
-        {
-            return new MvxAppCompatViewPresenter(AndroidViewAssemblies);
-            //var mvxFragmentsPresenter = new MvxFragmentsPresenter(AndroidViewAssemblies);
-            //Mvx.RegisterSingleton<IMvxAndroidViewPresenter>(mvxFragmentsPresenter);
-            //return mvxFragmentsPresenter;
-        }
+       
 
     }
 }
