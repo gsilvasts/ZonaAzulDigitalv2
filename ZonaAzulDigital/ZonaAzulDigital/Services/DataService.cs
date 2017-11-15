@@ -13,13 +13,18 @@ namespace ZonaAzulDigital.Core.Services
     public class DataService
     {
         HttpClient client = new HttpClient();
+        private string url;
+        public string Url { get => url; set => url = value; }
 
+        public DataService()
+        {
+            Url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
+        }
         public async Task<List<Cliente>> GetClienteAsync()
         {
             try
             {
-                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
-                var response = await client.GetStringAsync(url);
+                var response = await client.GetStringAsync(Url);
                 var cliente = JsonConvert.DeserializeObject<List<Cliente>>(response);
                 return cliente;
 
@@ -34,9 +39,7 @@ namespace ZonaAzulDigital.Core.Services
         {
             try
             {
-                string url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
-
-                var uri = new Uri(string.Format(url, cliente.CPF));
+                var uri = new Uri(string.Format(Url, cliente.CPF));
 
                 var data = JsonConvert.SerializeObject(cliente);
                 var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -59,8 +62,7 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task UpdateClienteAsync(Cliente cliente)
         {
-            string url = "http://zonaazuldigitalwebapi.azurewebsites.net";
-            var uri = new Uri(string.Format(url, cliente.CPF));
+            var uri = new Uri(string.Format(Url, cliente.CPF));
 
             var data = JsonConvert.SerializeObject(cliente);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -76,13 +78,13 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task DeletaClienteAsync(Cliente cliente)
         {
-            string url = "http://zonaazuldigitalwebapi.azurewebsites.net";
-            var uri = new Uri(string.Format(url, cliente.CPF));
+            var uri = new Uri(string.Format(Url, cliente.CPF));
             await client.DeleteAsync(uri);
         }
 
         public async Task<Response> LoginAsync(string txtCPF, string txtSenha)
-        {
+        {   
+
             try
             {
                 var loginRequest = new LoginRequest

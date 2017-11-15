@@ -35,8 +35,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         
         public IMvxCommand CadastroCommand => new MvxCommand(CadastroAsync);
         private async void CadastroAsync()
-        {
-            
+        {            
             if (Valida())
             {
                             
@@ -67,6 +66,8 @@ namespace ZonaAzulDigital.Core.ViewModels
                 else
                 {
                     //Message(message: "CPF já cadastrado.");
+                    //await Application.Current.MainPage.DisplayAlert("ERRO", "CPF já cadastrado.", "OK");
+                    
                     LimparCliente();
                 }
             }                
@@ -180,7 +181,7 @@ namespace ZonaAzulDigital.Core.ViewModels
             get { return _senha; }
             set { _senha = value; RaisePropertyChanged(() => txtSenha); }
         }
-
+        
         #endregion
 
     }

@@ -12,35 +12,69 @@ namespace ZonaAzulDigital.Core.ViewModels
     public class MainViewModel : MvxViewModel
     {
         private DataService dataService = new DataService();
-        //List<Cliente> cliente;
-
-        //public MainViewModel()
-        //{
-        //    Initialize();
-        //    dataService = new DataService();
-        //    AtualizaDados();
-        //}
-        //async void AtualizaDados()
-        //{
-        //    cliente = await dataService.GetClienteAsync();
-        //}
-
-        //public override Task Initialize()
-        //{
-        //    //TODO: Add starting logic here
-
-        //    return base.Initialize();
-        //}
+        List<Cliente> cliente;
 
         public MainViewModel()
         {
             Initialize();
+            dataService = new DataService();
+            AtualizaDados();
         }
+        
+        async void AtualizaDados()
+        {
+            cliente = await dataService.GetClienteAsync(); //
+        }        
 
         public override Task Initialize()
         {
             return base.Initialize();
         }
+
+        public IMvxCommand LoginTextCommand => new MvxCommand(LoginAsync);        
+        private void LoginAsync()
+        {
+            LoginRequest login = new LoginRequest
+            {
+                CPF = txtCPF,
+                Senha = txtSenha
+            };
+            if (Autentica(login))
+            {
+                ShowViewModel<HomeViewModel>();
+            }
+            else
+            {
+                //Mensagem de Texto Popup a implementar;
+                LimparLogin();
+            }
+        }
+
+        private void LimparLogin()
+        {
+            txtCPF = "";
+            txtSenha = "";
+        }
+
+        private bool Autentica(LoginRequest login)
+        {
+            foreach (Cliente c in cliente)
+            {
+                if ((c.CPF == login.CPF) && (c.Senha == login.Senha)) return true;
+            }
+            return false;
+        }
+
+        public IMvxCommand CadastroTextCommand => new MvxCommand(CadastroReturn);
+        private void CadastroReturn()
+        {
+
+            ShowViewModel<CadastroClienteViewModel>();
+        }
+        
+        
+        
+        #region Propriedades
 
         private string _cpf;    
         private string _senha;
@@ -49,9 +83,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         {
             get
             {
-               return _cpf;
-            
-               
+               return _cpf;              
             }
             set
             {
@@ -61,32 +93,19 @@ namespace ZonaAzulDigital.Core.ViewModels
         }
         public string txtSenha
         {
-            get { return _senha;  }
-            set { _senha = value; RaisePropertyChanged(() => txtSenha); }
-        }
-
-        public IMvxCommand LoginTextCommand
-        {
-            
-            
             get
             {
-                return new MvxCommand(async () =>
-                {
-
-                    await dataService.LoginAsync(txtCPF, txtSenha);
-                });
+                return _senha;
+            }
+            set
+            {
+                _senha = value;
+                RaisePropertyChanged(() => txtSenha);
             }
         }
 
+        #endregion
 
-
-        public IMvxCommand CadastroTextCommand => new MvxCommand(CadastroReturn);
-        private void CadastroReturn()
-        {
-            
-            ShowViewModel<CadastroClienteViewModel>();        
-        }
     }
-    
+
 }

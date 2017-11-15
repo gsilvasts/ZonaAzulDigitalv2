@@ -20,7 +20,8 @@
         android:numeric="integer"
         android:hint="CPF"
         android:textColorHint="#808080"
-        local:MvxBind="txtCPF Text" />
+        android:textColor="#033349"
+        local:MvxBind="Text txtCPF" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
@@ -32,8 +33,9 @@
         android:password="true"
         android:hint="Senha"
         android:textColorHint="#808080"
-        local:MvxBind="txtSenha Text"
-        android:id="@+id/editText1" />
+        android:textColor="#033349"
+        local:MvxBind="Text txtSenha"
+        android:id="@+id/txtSenha" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
@@ -46,7 +48,8 @@
         local:MvxBind="Click LoginTextCommand"
         android:layout_gravity="center"
         android:textColor="#ffffff"
-        android:background="#099bdd" />
+        android:background="#099bdd"
+        android:id="@+id/btnLogin" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
