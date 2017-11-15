@@ -165,11 +165,6 @@
   <ItemGroup>
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
-    <Compile Include="Resources\drawable\Botão1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Botão1.resx</DependentUpon>
-    </Compile>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
@@ -222,12 +217,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\cet.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Botão1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Botão1.Designer.cs</LastGenOutput>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\SplashStyle.xml" />

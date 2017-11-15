@@ -11,7 +11,6 @@
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:id="@+id/imageView1"
-        android:layout_weight="center"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp" />
     <EditText
@@ -45,7 +44,6 @@
         android:text="ENTRAR"
         android:textSize="30dp"
         local:MvxBind="Click LoginTextCommand"
-        android:layout_weight="center"
         android:layout_gravity="center"
         android:textColor="#ffffff"
         android:background="#099bdd" />
@@ -59,7 +57,6 @@
         android:text="CADASTRO"
         android:textSize="30dp"
         local:MvxBind="Click CadastroTextCommand"
-        android:layout_weight="center"
         android:layout_gravity="center"
         android:background="#099bdd"
         android:textColor="#ffffff"
