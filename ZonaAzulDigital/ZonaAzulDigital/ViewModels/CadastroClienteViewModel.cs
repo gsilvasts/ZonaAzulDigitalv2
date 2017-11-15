@@ -24,7 +24,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         }
         async void AtualizaDados()
         {
-            cliente = await dataService.GetClienteAsync();
+            cliente = await dataService.GetClienteAsync(); //
         }
 
         public override Task Initialize()
@@ -32,13 +32,15 @@ namespace ZonaAzulDigital.Core.ViewModels
             return base.Initialize();
         }
 
+        private bool CPFRepeat;
+
         public IMvxCommand CadastroCommand => new MvxCommand(CadastroAsync);
         private async void CadastroAsync()
         {
+            
             if (Valida())
             {
-
-            
+                            
                 Cliente novocliente = new Cliente
                 {
                     CPF = txtCPF,
@@ -48,22 +50,40 @@ namespace ZonaAzulDigital.Core.ViewModels
                     Senha = txtSenha,
                 };
 
-                try
+                
+                CPFRepeat = true;
+                foreach (Cliente client in cliente)
                 {
-                await dataService.AddClienteAsync(novocliente);
-                    AtualizaDados();
-                    LimparCliente();                    
-                    ShowViewModel<MainViewModel>();
+                    if (client.CPF == novocliente.CPF)
+                    {
+                        CPFRepeat = false;
+                        break;
+                    }                            
                 }
-                //exception não funcionando corrigir aparte do alertdialogo.
-                catch (Exception ex)
+
+                if (CPFRepeat)
                 {
-                    await alertDialog("Erro", ex.Message, "OK");
+                    try
+                    {
+                        await dataService.AddClienteAsync(novocliente);
+                        AtualizaDados();
+                        LimparCliente();
+                        ShowViewModel<MainViewModel>();
+                    }
+                    //exception não funcionando corrigir aparte do alertdialogo.
+                    catch (Exception ex)
+                    {
+                        //await alertDialog("Erro", ex.Message, "OK");
+                    }
                 }
-            }
+                else
+                {
+                    LimparCliente();
+                }
+            }                
             else
             {
-                await alertDialog("Erro", "Dados Invalidos", "OK");
+                //await alertDialog("Erro", "Dados Invalidos", "OK");
             }
         }
 
