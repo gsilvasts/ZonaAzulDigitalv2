@@ -13,6 +13,7 @@ namespace ZonaAzulDigital.Droid.Views
     {
         protected override void OnCreate(Bundle bundle)
         {
+            RequestWindowFeature(Android.Views.WindowFeatures.NoTitle);
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.HomeView);
         }

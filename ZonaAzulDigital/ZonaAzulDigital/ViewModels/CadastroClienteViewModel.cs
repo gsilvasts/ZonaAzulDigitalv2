@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 using ZonaAzulDigital.Core.Models;
 using ZonaAzulDigital.Core.Services;
 
@@ -31,9 +32,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         {
             return base.Initialize();
         }
-
-        private bool CPFRepeat;
-
+        
         public IMvxCommand CadastroCommand => new MvxCommand(CadastroAsync);
         private async void CadastroAsync()
         {
@@ -50,18 +49,7 @@ namespace ZonaAzulDigital.Core.ViewModels
                     Senha = txtSenha,
                 };
 
-                
-                CPFRepeat = true;
-                foreach (Cliente client in cliente)
-                {
-                    if (client.CPF == novocliente.CPF)
-                    {
-                        CPFRepeat = false;
-                        break;
-                    }                            
-                }
-
-                if (CPFRepeat)
+                if (ValidaCPF(novocliente)) //verifica se os CPF já existe no banco
                 {
                     try
                     {
@@ -70,7 +58,7 @@ namespace ZonaAzulDigital.Core.ViewModels
                         LimparCliente();
                         ShowViewModel<MainViewModel>();
                     }
-                    //exception não funcionando corrigir aparte do alertdialogo.
+                        //exception não funcionando corrigir aparte do alertdialogo.
                     catch (Exception ex)
                     {
                         //await alertDialog("Erro", ex.Message, "OK");
@@ -78,6 +66,7 @@ namespace ZonaAzulDigital.Core.ViewModels
                 }
                 else
                 {
+                    //Message(message: "CPF já cadastrado.");
                     LimparCliente();
                 }
             }                
@@ -108,10 +97,24 @@ namespace ZonaAzulDigital.Core.ViewModels
             }
         }
 
-        private Task alertDialog(string v1, string message, string v2)
+        private bool ValidaCPF(Cliente c)
+        {
+            foreach (Cliente client in cliente)
+            {
+                if (c.CPF == client.CPF)                
+                    return false;                
+            }
+            return true;
+        }
+        private void Message(string message)
+        {
+            
+        }
+
+        /*private Task alertDialog(string v1, string message, string v2)
         {
             throw new NotImplementedException();
-        }
+        }*/
         #region Propriedades
 
         private string _cpf;
