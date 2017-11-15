@@ -93,18 +93,16 @@
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:textColor="#808080"
-            android:textAlignment="textStart"
             android:textSize="30dp"
-            android:MvxBind=""
+            android:MvxBind="text txtplaca"
             android:id="@+id/textView1" />
         <TextView
             android:text="10:00"
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:textColor="#808080"
-            android:textAlignment="textStart"
             android:textSize="30dp"
-            android:MvxBind=""
+            android:MvxBind="text txthora"
             android:id="@+id/textView2" />
     </LinearLayout>
 </LinearLayout>
