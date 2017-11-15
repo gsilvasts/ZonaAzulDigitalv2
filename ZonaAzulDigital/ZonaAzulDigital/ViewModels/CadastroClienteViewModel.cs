@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 using ZonaAzulDigital.Core.Models;
 using ZonaAzulDigital.Core.Services;
 
@@ -24,21 +25,21 @@ namespace ZonaAzulDigital.Core.ViewModels
         }
         async void AtualizaDados()
         {
-            cliente = await dataService.GetClienteAsync();
+            cliente = await dataService.GetClienteAsync(); //
         }
 
         public override Task Initialize()
         {
             return base.Initialize();
         }
-
+        
         public IMvxCommand CadastroCommand => new MvxCommand(CadastroAsync);
         private async void CadastroAsync()
         {
+            
             if (Valida())
             {
-
-            
+                            
                 Cliente novocliente = new Cliente
                 {
                     CPF = txtCPF,
@@ -48,22 +49,30 @@ namespace ZonaAzulDigital.Core.ViewModels
                     Senha = txtSenha,
                 };
 
-                try
+                if (ValidaCPF(novocliente)) //verifica se os CPF já existe no banco
                 {
-                await dataService.AddClienteAsync(novocliente);
-                    AtualizaDados();
-                    LimparCliente();                    
-                    ShowViewModel<MainViewModel>();
+                    try
+                    {
+                        await dataService.AddClienteAsync(novocliente);
+                        AtualizaDados();
+                        LimparCliente();
+                        ShowViewModel<MainViewModel>();
+                    }
+                        //exception não funcionando corrigir aparte do alertdialogo.
+                    catch (Exception ex)
+                    {
+                        //await alertDialog("Erro", ex.Message, "OK");
+                    }
                 }
-                //exception não funcionando corrigir aparte do alertdialogo.
-                catch (Exception ex)
+                else
                 {
-                    await alertDialog("Erro", ex.Message, "OK");
+                    //Message(message: "CPF já cadastrado.");
+                    LimparCliente();
                 }
-            }
+            }                
             else
             {
-                await alertDialog("Erro", "Dados Invalidos", "OK");
+                //await alertDialog("Erro", "Dados Invalidos", "OK");
             }
         }
 
@@ -88,10 +97,24 @@ namespace ZonaAzulDigital.Core.ViewModels
             }
         }
 
-        private Task alertDialog(string v1, string message, string v2)
+        private bool ValidaCPF(Cliente c)
+        {
+            foreach (Cliente client in cliente)
+            {
+                if (c.CPF == client.CPF)                
+                    return false;                
+            }
+            return true;
+        }
+        private void Message(string message)
+        {
+            
+        }
+
+        /*private Task alertDialog(string v1, string message, string v2)
         {
             throw new NotImplementedException();
-        }
+        }*/
         #region Propriedades
 
         private string _cpf;
