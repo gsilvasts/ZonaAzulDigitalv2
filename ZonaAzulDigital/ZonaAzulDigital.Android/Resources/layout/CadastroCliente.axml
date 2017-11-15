@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -23,7 +23,7 @@
             android:layout_height="5.0dp"
             android:id="@+id/space1" />
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="Nome Completo"
@@ -35,7 +35,7 @@
             android:layout_height="5.0dp"
             android:id="@+id/space1" />
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -48,7 +48,7 @@
             android:layout_height="5.0dp"
             android:id="@+id/space1" />
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:phoneNumber="true"
@@ -61,7 +61,7 @@
             android:layout_height="5.0dp"
             android:id="@+id/space1" />
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:password="true"
@@ -74,7 +74,7 @@
             android:layout_height="5.0dp"
             android:id="@+id/space1" />
         <EditText
-            android:layout_marginLeft="10"
+            android:layout_marginLeft="10dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:password="true"
@@ -92,8 +92,8 @@
             android:text="CADASTRAR"
             android:textSize="20dp"
             local:MvxBind="Click CadastroCommand"
-            android:layout_marginLeft="100"
-            android:layout_marginRight="46.0"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="46.0dp"
             android:textColor="#ffffff"
             android:background="#099bdd" />
     </LinearLayout>
