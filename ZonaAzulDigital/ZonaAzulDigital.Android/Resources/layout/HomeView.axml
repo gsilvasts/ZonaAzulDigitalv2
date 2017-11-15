@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:textColor="#099bdd"
         android:textSize="20dp"
-        android:id="@+id/textView1" />
+        android:id="@+id/txtMensagem" />
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -34,13 +34,14 @@
         android:numeric="integer"
         android:hint="XXX-0000"
         android:textColorHint="#808080"
+        android:id="@+id/txtPlaca"
         local:MvxBind="text txtCPF" />
     <RadioGroup
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/radio_pirates"
+            android:id="@+id/rdUmaHora"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#808080"
@@ -48,7 +49,7 @@
             android:text="1 hora"
             local:MvxBind="ItemSource Item1; ItemSelected SelectedItem1" />
         <RadioButton
-            android:id="@+id/radio_pirate"
+            android:id="@+id/rdDuasHoras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#808080"
@@ -80,22 +81,26 @@
         android:background="#099bdd"
         android:textAlignment="center"
         android:textSize="30dp"
-        android:id="@+id/textView1" />
-  
+        android:id="@+id/textMensagem2" />
+    <LinearLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="horizontal">
         <TextView
             android:text="XXX-0000"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:textColor="#808080"
             android:textSize="30dp"
-         
-            android:id="@+id/textView1" />
+            android:id="@+id/txtPlacaEstacionada" />
         <TextView
             android:text="10:00"
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:textColor="#808080"
-            android:textSize="30dp"            
-            android:id="@+id/textView2" />
-    
+            android:textSize="30dp"
+            android:id="@+id/txtHora" />
+    </LinearLayout>
 </LinearLayout>
