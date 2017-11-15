@@ -17,8 +17,8 @@ namespace ZonaAzulDigital.Droid
         public SplashScreen()
             : base(Resource.Layout.SplashScreen)
         {
-            System.Threading.Thread.Sleep(1000);
-            StartActivity(typeof(MainView));
+            //System.Threading.Thread.Sleep(1000);
+            //StartActivity(typeof(MainView));
         }
         
     }
