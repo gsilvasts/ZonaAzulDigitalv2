@@ -6,6 +6,8 @@ using ZonaAzulDigital.Core.Services;
 using ZonaAzulDigital.Core.Models;
 using System.Collections.Generic;
 using Android.Content.Res;
+using ZonaAzulDigital.Core.Provider.DialogProvider;
+using MvvmCross.Platform;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
@@ -13,12 +15,14 @@ namespace ZonaAzulDigital.Core.ViewModels
     {
         private DataService dataService = new DataService();
         List<Cliente> cliente;
+        protected IDialogProvider _dialogProvider;
 
         public MainViewModel()
         {
             Initialize();
             dataService = new DataService();
             AtualizaDados();
+            _dialogProvider = Mvx.Resolve<IDialogProvider>();
         }
         
         async void AtualizaDados()
@@ -46,7 +50,7 @@ namespace ZonaAzulDigital.Core.ViewModels
             else
             {
                 
-                //Mensagem de Texto Popup a implementar;
+                _dialogProvider.ShowMessage("ERRO","CPF e/ou Senha inválidos, digite novamente.", "OK", () => { });
                 LimparLogin();
             }
         }

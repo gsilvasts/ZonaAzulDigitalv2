@@ -14,7 +14,17 @@ namespace ZonaAzulDigital.Droid.Views
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.MainView);            
+            SetContentView(Resource.Layout.MainView);   
+        }
+        public void MessageBox_Show(string message)
+        {
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("ERRO");
+            alert.SetMessage(message);
+            alert.SetPositiveButton("OK", (senderAlert, args) => {
+               });           
+            Dialog dialog = alert.Create();
+            dialog.Show();
         }
  
     }

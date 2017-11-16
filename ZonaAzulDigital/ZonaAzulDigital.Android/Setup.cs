@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using MvvmCross.Droid.Views;
 using MvvmCross.Platform;
-
+using ZonaAzulDigital.Core.Provider.DialogProvider;
 
 namespace ZonaAzulDigital.Droid
 {
@@ -31,7 +31,12 @@ namespace ZonaAzulDigital.Droid
             typeof(global::Android.Support.V7.Widget.Toolbar).Assembly,
         };
 
-       
+        protected override void InitializeIoC()
+        {
+            base.InitializeIoC();
+            Mvx.LazyConstructAndRegisterSingleton<IDialogProvider, DroidDialogProvider>();
+        }
+
 
     }
 }

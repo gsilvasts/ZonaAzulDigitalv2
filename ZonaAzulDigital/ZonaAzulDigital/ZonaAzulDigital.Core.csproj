@@ -38,6 +38,7 @@
     <Compile Include="Models\LoginRequest.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\DialogProvider\IDialogProvider.cs" />
     <Compile Include="Services\DataService.cs" />
     <Compile Include="ViewModels\CadastroClienteViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
