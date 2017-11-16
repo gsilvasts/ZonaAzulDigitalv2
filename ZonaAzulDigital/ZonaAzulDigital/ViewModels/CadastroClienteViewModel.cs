@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using ZonaAzulDigital.Core.Models;
 using ZonaAzulDigital.Core.Services;
+using ZonaAzulDigital.Core.Provider.DialogProvider;
+using MvvmCross.Platform;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
@@ -17,11 +19,14 @@ namespace ZonaAzulDigital.Core.ViewModels
         DataService dataService;
         List<Cliente> cliente;
 
+        protected IDialogProvider _dialogProvider;
+
         public CadastroClienteViewModel()
         {
             Initialize();
             dataService = new DataService();
             AtualizaDados();
+            _dialogProvider = Mvx.Resolve<IDialogProvider>();
         }
         async void AtualizaDados()
         {
@@ -57,23 +62,21 @@ namespace ZonaAzulDigital.Core.ViewModels
                         LimparCliente();
                         ShowViewModel<MainViewModel>();
                     }
-                        //exception não funcionando corrigir aparte do alertdialogo.
                     catch (Exception ex)
                     {
-                        //await alertDialog("Erro", ex.Message, "OK");
+                        _dialogProvider.ShowMessage("ERRO", "Erro inesperado: " + ex.Message + "\n Contate o administrador"
+                                , "OK", () => { });
                     }
                 }
                 else
                 {
-                    //Message(message: "CPF já cadastrado.");
-                    //await Application.Current.MainPage.DisplayAlert("ERRO", "CPF já cadastrado.", "OK");
-                    
+                    _dialogProvider.ShowMessage("ERRO", "CPF já cadastrado.", "OK", () => { });                    
                     LimparCliente();
                 }
             }                
             else
             {
-                //await alertDialog("Erro", "Dados Invalidos", "OK");
+                _dialogProvider.ShowMessage("ERRO", "Dados Inválidos. ", "OK", () => { });
             }
         }
 

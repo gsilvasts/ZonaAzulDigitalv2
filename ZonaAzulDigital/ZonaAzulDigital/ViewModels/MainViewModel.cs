@@ -58,7 +58,6 @@ namespace ZonaAzulDigital.Core.ViewModels
         private void LimparLogin()
         {
             txtCPF = "";
-            txtSenha = "";
         }
 
         private bool Autentica(LoginRequest login)
