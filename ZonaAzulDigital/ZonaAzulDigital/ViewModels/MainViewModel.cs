@@ -41,10 +41,11 @@ namespace ZonaAzulDigital.Core.ViewModels
             };
             if (Autentica(login))
             {
-                ShowViewModel<HomeViewModel>();
+                ShowViewModel<HomeViewModel>(new { CPF = login.CPF });
             }
             else
             {
+                
                 //Mensagem de Texto Popup a implementar;
                 LimparLogin();
             }
@@ -58,6 +59,7 @@ namespace ZonaAzulDigital.Core.ViewModels
 
         private bool Autentica(LoginRequest login)
         {
+            if (login.CPF == "1") return true; //para testes
             foreach (Cliente c in cliente)
             {
                 if ((c.CPF == login.CPF) && (c.Senha == login.Senha)) return true;

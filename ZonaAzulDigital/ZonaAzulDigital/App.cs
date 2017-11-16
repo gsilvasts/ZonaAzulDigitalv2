@@ -1,5 +1,6 @@
 using MvvmCross.Platform.IoC;
 using ZonaAzulDigital.Core.ViewModels;
+using Xamarin.Forms;
 
 namespace ZonaAzulDigital.Core
 {
@@ -11,7 +12,7 @@ namespace ZonaAzulDigital.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-                                  
+        
             RegisterAppStart<MainViewModel>();
         }
     }
