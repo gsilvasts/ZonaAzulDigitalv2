@@ -2775,7 +2775,7 @@ namespace ZonaAzulDigital.Droid
 			public const int ic_vol_type_tv_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int Icon = 2130837745;
+			public const int icon = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
 			public const int mr_button_connected_dark = 2130837746;
