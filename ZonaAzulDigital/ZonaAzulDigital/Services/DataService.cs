@@ -18,13 +18,19 @@ namespace ZonaAzulDigital.Core.Services
 
         public DataService()
         {
-            Url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/cliente/";
+            Url = "http://zonaazuldigitalwebapi.azurewebsites.net/api/";
         }
+
+        public string TablePath(string table)
+        {
+            return (Url + table + '/');
+        }
+
         public async Task<List<Cliente>> GetClienteAsync()
         {
             try
             {
-                var response = await client.GetStringAsync(Url);
+                var response = await client.GetStringAsync(TablePath("cliente"));
                 var cliente = JsonConvert.DeserializeObject<List<Cliente>>(response);
                 return cliente;
 
@@ -39,7 +45,7 @@ namespace ZonaAzulDigital.Core.Services
         {
             try
             {
-                var uri = new Uri(string.Format(Url, cliente.CPF));
+                var uri = new Uri(string.Format(TablePath("cliente"), cliente.CPF));
 
                 var data = JsonConvert.SerializeObject(cliente);
                 var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -62,7 +68,7 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task UpdateClienteAsync(Cliente cliente)
         {
-            var uri = new Uri(string.Format(Url, cliente.CPF));
+            var uri = new Uri(string.Format(TablePath("cliente"), cliente.CPF));
 
             var data = JsonConvert.SerializeObject(cliente);
             var content = new StringContent(data, Encoding.UTF8, "application/json");
@@ -78,7 +84,7 @@ namespace ZonaAzulDigital.Core.Services
 
         public async Task DeletaClienteAsync(Cliente cliente)
         {
-            var uri = new Uri(string.Format(Url, cliente.CPF));
+            var uri = new Uri(string.Format(TablePath("cliente"), cliente.CPF));
             await client.DeleteAsync(uri);
         }
 
