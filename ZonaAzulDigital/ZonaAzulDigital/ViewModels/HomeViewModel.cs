@@ -6,7 +6,9 @@ using ZonaAzulDigital.Core.Services;
 using ZonaAzulDigital.Core.Models;
 using System.Collections.Generic;
 using Android.Content.Res;
-
+using ZonaAzulDigital.Core.Provider.DialogProvider;
+using MvvmCross.Platform;
+using System.Text.RegularExpressions;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
@@ -15,7 +17,9 @@ namespace ZonaAzulDigital.Core.ViewModels
         private DataService dataService = new DataService();
         List<Cliente> cliente;
 
-        
+        protected IDialogProvider _dialogProvider;
+
+
         public void Init(string CPF)
         {
             Cpf = CPF;
@@ -23,6 +27,7 @@ namespace ZonaAzulDigital.Core.ViewModels
         public HomeViewModel()
         {
             Initialize();
+            _dialogProvider = Mvx.Resolve<IDialogProvider>();
         }
 
         async void AtualizaDados()
@@ -33,8 +38,63 @@ namespace ZonaAzulDigital.Core.ViewModels
         public IMvxCommand EstacionarTextCommand => new MvxCommand(Estacionar);
         private void Estacionar()
         {
-            txtHora = System.DateTime.Now.ToString("HH:mm");
-            txtPlacaEstacionada = txtPlaca;
+            DateTime restante;
+
+            /*Cartoes novocliente = new Cartoes
+            {
+                CPF = Cpf;
+            };*/
+
+
+            restante = DateTime.Now;
+            //Cartoes.Data = DateTime.Now;
+            
+            if (SelectedItem.Equals("1 hora"))
+            {                
+                restante.AddHours(1);
+                //Cartoes.Tipo = 1;
+            }
+            else if(SelectedItem.Equals("2 horas"))
+            {
+                restante.AddHours(2);
+               //Cartoes.Tipo = 2;
+            }
+
+            if (ValidaPlaca(txtPlaca))
+            {
+                txtPlacaEstacionada = txtPlaca.ToUpper().Trim().Insert(3, "-");
+                //Cartoes.Placa = txtPlaca.ToUpper().Trim();
+                txtHora = restante.ToString("HH:mm");
+            }
+            else
+            {
+                _dialogProvider.ShowMessage("Valor Inválido", 
+                    "Digite novamente a placa do veículo no modelo XXX0000.", "OK", () => { });
+                LimparPlaca();                
+            }
+
+            
+
+            
+        }
+
+        private void LimparPlaca()
+        {
+            txtPlaca = "";
+        }
+
+        public bool ValidaPlaca(string placa)
+        {
+            if (!(string.IsNullOrEmpty(placa)))
+            {
+                if (placa.Length == 7 && //verifica se possui 7 caracteres XXX0000           
+                  Regex.Matches(placa.Substring(0, 3), @"[a-zA-Z]").Count == 3 && //verifica se os 3 primeiros caracteres são letras
+                  Regex.Matches(placa.Substring(3, 4), @"[0-9]").Count == 4) //verifica se os 4 ultimos caracteres são numericos
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         #region Propriedades
@@ -98,6 +158,20 @@ namespace ZonaAzulDigital.Core.ViewModels
         }
 
 
+        private string _selectedtitem;
+
+        public string SelectedItem
+        {
+            get
+            {
+                return _selectedtitem;
+            }
+            set
+            {
+                _selectedtitem = value;
+                RaisePropertyChanged(() => SelectedItem);
+            }
+        }
         #endregion
 
     }

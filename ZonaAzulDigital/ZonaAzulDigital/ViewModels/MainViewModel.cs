@@ -62,6 +62,7 @@ namespace ZonaAzulDigital.Core.ViewModels
 
         private bool Autentica(LoginRequest login)
         {
+            if (string.IsNullOrEmpty(login.CPF) || string.IsNullOrEmpty(login.Senha)) return false;
             if (login.CPF == "1") return true; //para testes
             foreach (Cliente c in cliente)
             {

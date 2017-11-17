@@ -45,7 +45,8 @@
         android:layout_width="250dp"
         android:layout_height="54dp"
         android:layout_gravity="center_horizontal"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        local:MvxBind="ItemSource Item; SelectedItem  SelectedItem">
         <RadioButton
             android:id="@+id/rdUmaHora"
             android:layout_width="wrap_content"
@@ -55,8 +56,7 @@
             android:buttonTint="#033349"
             android:checked="true"
             android:textSize="22dp"
-            android:text="1 hora"
-            local:MvxBind="ItemSource Item1; ItemSelected SelectedItem1" />
+            android:text="1 hora" />
         <RadioButton
             android:id="@+id/rdDuasHoras"
             android:layout_width="wrap_content"
@@ -67,8 +67,7 @@
             android:layout_marginLeft="34dp"
             android:checked="false"
             android:textSize="22dp"
-            android:text="2 horas"
-            local:MvxBind="ItemSource Item2; ItemSelected SelectedItem2 " />
+            android:text="2 horas" />
     </RadioGroup>
     <Space
         android:layout_width="match_parent"
