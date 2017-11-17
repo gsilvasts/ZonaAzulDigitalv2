@@ -172,6 +172,7 @@
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\CadastroCliente.cs" />
     <Compile Include="Views\HomeView.cs" />
+    <Compile Include="Views\PagamentoView.cs" />
     <Compile Include="Views\MainView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,7 +194,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
-    <AndroidResource Include="Resources\layout\Item_Radio.axml" />
+    <AndroidResource Include="Resources\layout\PagamentoView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

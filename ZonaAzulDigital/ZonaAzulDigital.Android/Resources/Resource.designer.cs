@@ -166,6 +166,25 @@ namespace ZonaAzulDigital.Droid
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0e0001
+			public const int anos_array = 2131623937;
+			
+			// aapt resource value: 0x7f0e0000
+			public const int meses_array = 2131623936;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -3147,8 +3166,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0a004a
 			public const int list_item = 2131361866;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int masked = 2131361988;
+			// aapt resource value: 0x7f0a00c5
+			public const int masked = 2131361989;
 			
 			// aapt resource value: 0x7f0a00b1
 			public const int media_actions = 2131361969;
@@ -3432,8 +3451,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0a0059
 			public const int title_template = 2131361881;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int toolbar = 2131361986;
+			// aapt resource value: 0x7f0a00c3
+			public const int toolbar = 2131361987;
 			
 			// aapt resource value: 0x7f0a002b
 			public const int top = 2131361835;
@@ -3456,6 +3475,9 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0a0086
 			public const int txtMensagem = 2131361926;
 			
+			// aapt resource value: 0x7f0a00c2
+			public const int txtNome = 2131361986;
+			
 			// aapt resource value: 0x7f0a0087
 			public const int txtPlaca = 2131361927;
 			
@@ -3474,8 +3496,8 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0a000e
 			public const int view_offset_helper = 2131361806;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int visible = 2131361987;
+			// aapt resource value: 0x7f0a00c4
+			public const int visible = 2131361988;
 			
 			// aapt resource value: 0x7f0a00a3
 			public const int volume_item_container = 2131361955;
@@ -3697,73 +3719,73 @@ namespace ZonaAzulDigital.Droid
 			public const int HomeView = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int Item_Radio = 2130903083;
+			public const int MainView = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int MainView = 2130903084;
+			public const int mr_chooser_dialog = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_chooser_dialog = 2130903085;
+			public const int mr_chooser_list_item = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_chooser_list_item = 2130903086;
+			public const int mr_controller_material_dialog_b = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int mr_controller_material_dialog_b = 2130903087;
+			public const int mr_controller_volume_item = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int mr_controller_volume_item = 2130903088;
+			public const int mr_playback_control = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int mr_playback_control = 2130903089;
+			public const int mr_volume_control = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int mr_volume_control = 2130903090;
+			public const int notification_action = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_action = 2130903091;
+			public const int notification_action_tombstone = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_action_tombstone = 2130903092;
+			public const int notification_media_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_media_action = 2130903093;
+			public const int notification_media_cancel_action = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_media_cancel_action = 2130903094;
+			public const int notification_template_big_media = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media = 2130903095;
+			public const int notification_template_big_media_custom = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_big_media_custom = 2130903096;
+			public const int notification_template_big_media_narrow = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_big_media_narrow = 2130903097;
+			public const int notification_template_big_media_narrow_custom = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_big_media_narrow_custom = 2130903098;
+			public const int notification_template_custom_big = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_custom_big = 2130903099;
+			public const int notification_template_icon_group = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_icon_group = 2130903100;
+			public const int notification_template_lines_media = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_lines_media = 2130903101;
+			public const int notification_template_media = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_media = 2130903102;
+			public const int notification_template_media_custom = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_media_custom = 2130903103;
+			public const int notification_template_part_chronometer = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_part_chronometer = 2130903104;
+			public const int notification_template_part_time = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int notification_template_part_time = 2130903105;
+			public const int PagamentoView = 2130903105;
 			
 			// aapt resource value: 0x7f030042
 			public const int select_dialog_item_material = 2130903106;
@@ -3895,6 +3917,9 @@ namespace ZonaAzulDigital.Droid
 			// aapt resource value: 0x7f0b0027
 			public const int abc_toolbar_collapse_description = 2131427367;
 			
+			// aapt resource value: 0x7f0b0043
+			public const int anos = 2131427395;
+			
 			// aapt resource value: 0x7f0b003f
 			public const int app_name = 2131427391;
 			
@@ -3909,6 +3934,9 @@ namespace ZonaAzulDigital.Droid
 			
 			// aapt resource value: 0x7f0b003e
 			public const int hello = 2131427390;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int meses = 2131427394;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;

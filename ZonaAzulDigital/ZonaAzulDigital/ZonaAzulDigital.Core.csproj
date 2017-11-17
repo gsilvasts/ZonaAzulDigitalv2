@@ -43,6 +43,7 @@
     <Compile Include="Services\DataService.cs" />
     <Compile Include="ViewModels\CadastroClienteViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="ViewModels\PagamentoViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup />

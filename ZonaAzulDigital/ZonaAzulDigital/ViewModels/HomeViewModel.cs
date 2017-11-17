@@ -53,7 +53,7 @@ namespace ZonaAzulDigital.Core.ViewModels
 
             if (OptionA)
             {
-                tipo = 0.01; // para testes.
+                tipo = 0.011; // para testes.
                 //tipo = 1;
                 //Cartoes.Tipo = 1;
             }
@@ -66,9 +66,9 @@ namespace ZonaAzulDigital.Core.ViewModels
             if (ValidaPlaca(txtPlaca))
             {
                 txtPlacaEstacionada = txtPlaca.ToUpper().Trim().Insert(3, "-");
-                //Cartoes.Placa = txtPlaca.ToUpper().Trim();
                 StartUpdate(restante, tipo);
                 BloqueiaOpcoes();
+                ShowViewModel<PagamentoViewModel>();                
             }
             else
             {

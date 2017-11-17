@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:textAlignment="center">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Número do Cartão"
+        android:textColor="#033349"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:numeric="integer"
+        android:hint="0000 0000 0000 0000"
+        android:textColorHint="#808080"
+        android:textColor="#033349"
+        local:MvxBind="Text txtNumero" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5.0dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Impresso no Cartão"
+        android:textColor="#033349"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Insira o nome"
+        android:textColorHint="#808080"
+        android:textColor="#033349"
+        local:MvxBind="Text txtNome"
+        android:id="@+id/txtNome" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5.0dp"
+        android:id="@+id/space1" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Vencimento"
+        android:textColor="#033349"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:numeric="integer"
+            android:hint="Mês"
+            android:textColorHint="#808080"
+            android:textColor="#033349"
+            local:MvxBind="Text txtMes" />
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:numeric="integer"
+            android:hint="Ano"
+            android:textColorHint="#808080"
+            android:textColor="#033349"
+            local:MvxBind="Text txtAno" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5.0dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:numeric="integer"
+        android:hint="Código de Segurança"
+        android:textColorHint="#808080"
+        android:textColor="#033349"
+        local:MvxBind="Text txtCodSeg" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5.0dp"
+        android:id="@+id/space1" />
+    <Button
+        android:layout_width="179.0dp"
+        android:layout_height="54.0dp"
+        android:text="CONFIRMAR"
+        android:textSize="30dp"
+        local:MvxBind="Click ConfirmarCommand"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#099bdd"
+        android:id="@+id/btnLogin" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30.0dp"
+        android:id="@+id/space1" />
+    <Button
+        android:layout_width="179.0dp"
+        android:layout_height="54.0dp"
+        android:text="VOLTAR"
+        android:textSize="30dp"
+        local:MvxBind="Click VoltarCommand"
+        android:layout_gravity="center"
+        android:background="#099bdd"
+        android:textColor="#ffffff"
+        android:id="@+id/button1" />
+</LinearLayout>
