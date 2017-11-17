@@ -15,8 +15,7 @@
         android:layout_margin="10dp"
         android:textSize="36dp"
         android:textColor="#808080"
-        android:textAlignment="center"
-        local:MvxBind="Text clkTempo" />
+        android:textAlignment="center" />
     <TextView
         android:text="Insira a Placa do Veículo"
         android:layout_width="match_parent"
@@ -31,80 +30,96 @@
         android:layout_width="159dp"
         android:layout_height="54dp"
         android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:inputType="textCapCharacters"
         android:textSize="24dp"
-        android:textAlignment="gravity"
-        android:hint="XXX-0000"
+        android:hint="XXX0000"
         android:textColorHint="#808080"
         android:textColor="#033349"
         android:id="@+id/txtPlaca"
-        local:MvxBind="Text txtPlaca"
-        android:textAllCaps="true"
+        local:MvxBind="Text txtPlaca; Enabled txtPlaca_Enabled"
         android:textStyle="bold" />
     <RadioGroup
-        android:layout_width="250dp"
-        android:layout_height="54dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:orientation="horizontal"
-        local:MvxBind="ItemSource Item; SelectedItem  SelectedItem">
+        android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/rdUmaHora"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#808080"
-            android:layout_gravity="center"
-            android:buttonTint="#033349"
-            android:checked="true"
-            android:textSize="22dp"
-            android:text="1 hora" />
+            android:backgroundTint="#033349"
+            android:textColor="#033349"
+            android:text="1 hora"
+            local:MvxBind="Checked OptionA; Enabled OptionA_Enabled"
+            android:id="@+id/radioButton2" />
         <RadioButton
-            android:id="@+id/rdDuasHoras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#808080"
-            android:layout_gravity="center"
-            android:buttonTint="#033349"
-            android:layout_marginLeft="34dp"
-            android:checked="false"
-            android:textSize="22dp"
-            android:text="2 horas" />
+            android:backgroundTint="#033349"
+            android:text="2 horas"
+            android:textColor="#033349"
+            local:MvxBind="Checked OptionB; Enabled OptionB_Enabled"
+            android:id="@+id/radioButton2" />
     </RadioGroup>
     <Space
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
         android:id="@+id/space1" />
-   <Button
+    <Button
         android:layout_width="179.0dp"
         android:layout_height="54.0dp"
         android:text="ESTACIONAR"
         android:textSize="25dp"
-        local:MvxBind="Click EstacionarTextCommand"
         android:layout_gravity="center_horizontal"
         android:background="#099bdd"
         android:textColor="#ffffff"
-        android:id="@+id/btnEstacionar" />
+        android:id="@+id/btnEstacionar"        
+        local:MvxBind="Click EstacionarTextCommand; Enabled Estacionar_Enabled"/>
     <Space
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
         android:id="@+id/space1" />
     <TextView
-      android:text="Veículos Estacionados"
+        android:text="Veículo Estacionado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#099bdd"
         android:textAlignment="center"
         android:textSize="30dp"
+        android:textColor="#ffffff"
         android:id="@+id/textMensagem2" />
     <LinearLayout
-        android:id="@+id/drawerLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#ffffff"
         android:orientation="horizontal">
         <TextView
-            android:text="XXX-0000"
-           android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:text="PLACA"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#033349"
+            android:textSize="30dp" />
+        <TextView
+            android:text="RESTANTE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#033349"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#033349" />
+    <LinearLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <TextView
+            android:text="XXX0000"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
             android:textColor="#808080"
             android:textSize="30dp"
             android:id="@+id/txtPlacaEstacionada"
@@ -112,7 +127,7 @@
         <TextView
             android:text="10:00"
             android:layout_width="fill_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:textColor="#808080"
             android:textSize="30dp"
             android:id="@+id/txtHora"
