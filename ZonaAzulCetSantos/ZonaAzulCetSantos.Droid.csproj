@@ -78,6 +78,7 @@
   <ItemGroup>
     <Compile Include="HomeViewCet.cs" />
     <Compile Include="LoginCet.cs" />
+    <Compile Include="Provider\DialogProvider\DroidDialogProvider.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
