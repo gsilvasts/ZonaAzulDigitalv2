@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="30.0dp"
         android:id="@+id/space1" />
-    <Button
+   <Button
         android:layout_width="179.0dp"
         android:layout_height="54.0dp"
         android:text="ESTACIONAR"
@@ -88,7 +88,7 @@
         android:layout_height="30.0dp"
         android:id="@+id/space1" />
     <TextView
-        android:text="Veículos Estacionados"
+      android:text="Veículos Estacionados"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#099bdd"
@@ -103,7 +103,7 @@
         android:orientation="horizontal">
         <TextView
             android:text="XXX-0000"
-            android:layout_width="150dp"
+           android:layout_width="150dp"
             android:layout_height="50dp"
             android:textColor="#808080"
             android:textSize="30dp"

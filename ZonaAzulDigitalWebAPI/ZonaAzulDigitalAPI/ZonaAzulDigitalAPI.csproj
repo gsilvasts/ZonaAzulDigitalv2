@@ -184,6 +184,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\BairroController.cs" />
+    <Compile Include="Controllers\CartoesController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RuaController.cs" />
@@ -195,10 +196,12 @@
     <Compile Include="Models\Bairro.cs" />
     <Compile Include="Models\BairroRepositorio.cs" />
     <Compile Include="Models\Cartoes.cs" />
+    <Compile Include="Models\CartoesRepositorio.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\ClienteRepositorio.cs" />
     <Compile Include="Models\DalHelper.cs" />
     <Compile Include="Models\IBairroRepositorio.cs" />
+    <Compile Include="Models\ICartoesRepositorio.cs" />
     <Compile Include="Models\IClienteRepositorio.cs" />
     <Compile Include="Models\IRuaRepositorio.cs" />
     <Compile Include="Models\IVeiculoRepositorio.cs" />

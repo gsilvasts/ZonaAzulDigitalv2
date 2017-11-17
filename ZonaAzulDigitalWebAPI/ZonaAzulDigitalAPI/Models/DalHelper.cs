@@ -144,7 +144,111 @@ namespace ZonaAzulDigitalAPI.Models
             }
         }
 
-#endregion DadosClientes
+        #endregion DadosClientes
+
+        public static int InsertCartoes(Cartoes cartoes)
+        {
+            int reg = 0;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                string sql = "Insert into Cartoes(DataEntrada, Placa, Tipo_Cartao, Ativo) values (@DataEntrada, @Placa, @Tipo_Cartao, @Ativo,)";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+
+                    cmd.Parameters.AddWithValue("@DataEntrada", cartoes.DataEntrada);
+                    cmd.Parameters.AddWithValue("@Placa", cartoes.Placa);
+                    cmd.Parameters.AddWithValue("@Tipo_Cartao", cartoes.Tipo_Cartao);
+                    cmd.Parameters.AddWithValue("@Ativo", cartoes.Ativo);
+                    
+                    con.Open();
+                    reg = cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+                return reg;
+
+            }
+        }
+        public static List<Cartoes> GetCartoes()
+        {
+            List<Cartoes> _cartoes = new List<Cartoes>();
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Cartoes", con))
+                {
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                var cartoes = new Cartoes();
+                                cartoes.DataEntrada = Convert.ToDateTime("DataEntrada");
+                                cartoes.Placa = dr["Placa"].ToString();
+                                cartoes.Tipo_Cartao = Convert.ToInt32("Tipo_Cartao");
+                                cartoes.Ativo = Convert.ToBoolean("Ativo");
+
+                                _cartoes.Add(cartoes);
+                            }
+                        }
+
+                        return _cartoes;
+                    }
+                }
+            }
+        }
+        public static Cartoes GetCartoes(int Cd_Cartoes)
+        {
+            Cartoes cartoes = null;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Clientes where Cd_Cartoes = " + Cd_Cartoes, con))
+                {
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr != null)
+                        {
+                            while (dr.Read())
+                            {
+                                cartoes = new Cartoes();
+                                cartoes.DataEntrada = Convert.ToDateTime("DataEntrada");
+                                cartoes.Placa = dr["Placa"].ToString();
+                                cartoes.Tipo_Cartao = Convert.ToInt32("Tipo_Cartao");
+                                cartoes.Ativo = Convert.ToBoolean("Ativo");
+
+                            }
+                        }
+                        return cartoes;
+                    }
+
+                }
+            }
+        }
+        public static int UpdateCartoes(Cartoes cartoes)
+        {
+            int reg = 0;
+            using (SqlConnection con = new SqlConnection(GetStringConexao()))
+            {
+                string sql = "Update Clientes set DataEntrada = @DataEntrada, Placa = @Placa, Tipo_Catao=@Tipo_Cartao, Ativo=@Ativo";
+                using (SqlCommand cmd = new SqlCommand(sql, con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.AddWithValue("@DataEntrada", cartoes.DataEntrada);
+                    cmd.Parameters.AddWithValue("@Placa", cartoes.Placa);
+                    cmd.Parameters.AddWithValue("@Tipo_Cartao", cartoes.Tipo_Cartao);
+                    cmd.Parameters.AddWithValue("@Ativo", cartoes.Ativo);              
+
+                    con.Open();
+                    reg = cmd.ExecuteNonQuery();
+                    con.Close();
+
+                }
+                return reg;
+            }
+
+        }
 
         #region DadosVeiculo
         public static int InsertVeiculos(Veiculos veiculos)
