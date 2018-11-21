@@ -22,10 +22,10 @@ namespace ZonaAzulDigital.Droid
             return new App();
         }
 
-        protected override IMvxTrace CreateDebugTrace()
-        {
-            return new DebugTrace();
-        }
+        //protected override IMvxTrace CreateDebugTrace()
+        //{
+        //    return new DebugTrace();
+        //}
         protected override IEnumerable<Assembly> AndroidViewAssemblies => new List<Assembly>(base.AndroidViewAssemblies)
         {
             typeof(global::Android.Support.V7.Widget.Toolbar).Assembly,

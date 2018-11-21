@@ -5,7 +5,7 @@ using System;
 using ZonaAzulDigital.Core.Services;
 using ZonaAzulDigital.Core.Models;
 using System.Collections.Generic;
-using Android.Content.Res;
+
 using ZonaAzulDigital.Core.Provider.DialogProvider;
 using MvvmCross.Platform;
 

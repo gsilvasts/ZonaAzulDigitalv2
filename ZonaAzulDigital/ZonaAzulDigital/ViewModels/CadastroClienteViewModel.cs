@@ -2,13 +2,10 @@
 using MvvmCross.Platform;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 using ZonaAzulDigital.Core.Models;
 using ZonaAzulDigital.Core.Services;
 using ZonaAzulDigital.Core.Provider.DialogProvider;
-using MvvmCross.Platform;
 
 namespace ZonaAzulDigital.Core.ViewModels
 {
